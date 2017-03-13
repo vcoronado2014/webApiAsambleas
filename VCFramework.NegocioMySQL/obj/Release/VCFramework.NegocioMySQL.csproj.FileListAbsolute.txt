@@ -1,0 +1,11 @@
+/Users/victorcoronado/Projects/WebApiAsambleas/VCFramework.NegocioMySQL/bin/Release/VCFramework.NegocioMySQL.dll.config
+/Users/victorcoronado/Projects/WebApiAsambleas/VCFramework.NegocioMySQL/bin/Release/VCFramework.NegocioMySQL.dll
+/Users/victorcoronado/Projects/WebApiAsambleas/VCFramework.NegocioMySQL/bin/Release/Newtonsoft.Json.dll
+/Users/victorcoronado/Projects/WebApiAsambleas/VCFramework.NegocioMySQL/bin/Release/System.Web.Cors.dll
+/Users/victorcoronado/Projects/WebApiAsambleas/VCFramework.NegocioMySQL/bin/Release/System.Web.Http.Cors.dll
+/Users/victorcoronado/Projects/WebApiAsambleas/VCFramework.NegocioMySQL/bin/Release/System.Web.Http.dll
+/Users/victorcoronado/Projects/WebApiAsambleas/VCFramework.NegocioMySQL/bin/Release/VCFramework.Entidad.dll
+/Users/victorcoronado/Projects/WebApiAsambleas/VCFramework.NegocioMySQL/bin/Release/VCFramework.EntidadFuncional.dll
+/Users/victorcoronado/Projects/WebApiAsambleas/VCFramework.NegocioMySQL/bin/Release/VCFramework.Negocio.Factory.dll
+/Users/victorcoronado/Projects/WebApiAsambleas/VCFramework.NegocioMySQL/obj/Release/VCFramework.NegocioMySQL.csprojResolveAssemblyReference.cache
+/Users/victorcoronado/Projects/WebApiAsambleas/VCFramework.NegocioMySQL/obj/Release/VCFramework.NegocioMySQL.dll

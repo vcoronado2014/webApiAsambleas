@@ -1,0 +1,16 @@
+/Users/victorcoronado/Projects/WebApiAsambleas/VCFramework.Entidad/bin/Debug/VCFramework.Entidad.dll
+/Users/victorcoronado/Projects/WebApiAsambleas/VCFramework.Entidad/bin/Debug/VCFramework.Entidad.dll.mdb
+/Users/victorcoronado/Projects/WebApiAsambleas/VCFramework.Entidad/obj/Debug/VCFramework.Entidad.dll
+/Users/victorcoronado/Projects/WebApiAsambleas/VCFramework.Entidad/obj/Debug/VCFramework.Entidad.dll.mdb
+D:\ASAMBLEAS_MAC\VCFramework.Entidad\bin\Debug\VCFramework.Entidad.dll
+D:\ASAMBLEAS_MAC\VCFramework.Entidad\bin\Debug\VCFramework.Entidad.pdb
+D:\ASAMBLEAS_MAC\VCFramework.Entidad\obj\Debug\VCFramework.Entidad.csprojResolveAssemblyReference.cache
+D:\ASAMBLEAS_MAC\VCFramework.Entidad\obj\Debug\VCFramework.Entidad.dll
+D:\ASAMBLEAS_MAC\VCFramework.Entidad\obj\Debug\VCFramework.Entidad.pdb
+D:\ASAMBLEAS_MAC\VCFramework.Entidad\bin\Debug\Microsoft.Owin.Cors.dll
+D:\ASAMBLEAS_MAC\VCFramework.Entidad\bin\Debug\Microsoft.Owin.dll
+D:\ASAMBLEAS_MAC\VCFramework.Entidad\bin\Debug\Owin.dll
+D:\ASAMBLEAS_MAC\VCFramework.Entidad\bin\Debug\System.Web.Cors.dll
+D:\ASAMBLEAS_MAC\VCFramework.Entidad\bin\Debug\Microsoft.Owin.xml
+D:\ASAMBLEAS_MAC\VCFramework.Entidad\bin\Debug\Microsoft.Owin.Cors.xml
+D:\ASAMBLEAS_MAC\VCFramework.Entidad\bin\Debug\VCFramework.Entidad.dll.config

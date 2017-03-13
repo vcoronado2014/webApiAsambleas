@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{CF2F5543-E916-49D4-9EEE-9CA6E3F5F2FC}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WebApiAsambleas/Controllers/VotacionController.cs">
+    <Files>
+      <File FileName="WebApiAsambleas/Web.config" Line="9" Column="16" />
+      <File FileName="WebApiAsambleas/App_Start/WebApiConfig.cs" Line="155" Column="14" />
+      <File FileName="WebApiAsambleas/Controllers/VotacionController.cs" Line="11" Column="18" />
+      <File FileName="WebApiAsambleas/Controllers/ValuesController.cs" Line="14" Column="41" />
+      <File FileName="WebApiAsambleas/Controllers/RendicionController.cs" Line="149" Column="18" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.WebApiAsambleas PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>

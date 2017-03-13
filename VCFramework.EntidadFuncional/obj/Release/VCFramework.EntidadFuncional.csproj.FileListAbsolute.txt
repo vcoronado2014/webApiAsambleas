@@ -1,0 +1,4 @@
+/Users/victorcoronado/Projects/WebApiAsambleas/VCFramework.EntidadFuncional/bin/Release/VCFramework.EntidadFuncional.dll
+/Users/victorcoronado/Projects/WebApiAsambleas/VCFramework.EntidadFuncional/bin/Release/VCFramework.Entidad.dll
+/Users/victorcoronado/Projects/WebApiAsambleas/VCFramework.EntidadFuncional/obj/Release/VCFramework.EntidadFuncional.csprojResolveAssemblyReference.cache
+/Users/victorcoronado/Projects/WebApiAsambleas/VCFramework.EntidadFuncional/obj/Release/VCFramework.EntidadFuncional.dll
