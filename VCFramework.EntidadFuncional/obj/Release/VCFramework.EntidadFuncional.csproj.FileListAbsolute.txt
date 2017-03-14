@@ -2,3 +2,14 @@
 /Users/victorcoronado/Projects/WebApiAsambleas/VCFramework.EntidadFuncional/bin/Release/VCFramework.Entidad.dll
 /Users/victorcoronado/Projects/WebApiAsambleas/VCFramework.EntidadFuncional/obj/Release/VCFramework.EntidadFuncional.csprojResolveAssemblyReference.cache
 /Users/victorcoronado/Projects/WebApiAsambleas/VCFramework.EntidadFuncional/obj/Release/VCFramework.EntidadFuncional.dll
+D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\VCFramework.EntidadFuncional\bin\Release\VCFramework.EntidadFuncional.dll.config
+D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\VCFramework.EntidadFuncional\bin\Release\VCFramework.EntidadFuncional.dll
+D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\VCFramework.EntidadFuncional\bin\Release\Microsoft.Owin.Cors.dll
+D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\VCFramework.EntidadFuncional\bin\Release\Microsoft.Owin.dll
+D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\VCFramework.EntidadFuncional\bin\Release\Owin.dll
+D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\VCFramework.EntidadFuncional\bin\Release\System.Web.Cors.dll
+D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\VCFramework.EntidadFuncional\bin\Release\VCFramework.Entidad.dll
+D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\VCFramework.EntidadFuncional\bin\Release\Microsoft.Owin.xml
+D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\VCFramework.EntidadFuncional\bin\Release\Microsoft.Owin.Cors.xml
+D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\VCFramework.EntidadFuncional\obj\Release\VCFramework.EntidadFuncional.csprojResolveAssemblyReference.cache
+D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\VCFramework.EntidadFuncional\obj\Release\VCFramework.EntidadFuncional.dll
