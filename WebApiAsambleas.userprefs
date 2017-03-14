@@ -1,16 +1,29 @@
 ﻿<Properties StartupConfiguration="{CF2F5543-E916-49D4-9EEE-9CA6E3F5F2FC}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="WebApiAsambleas/Controllers/VotacionController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Estado de webApiAsambleas">
     <Files>
-      <File FileName="WebApiAsambleas/Web.config" Line="9" Column="16" />
-      <File FileName="WebApiAsambleas/App_Start/WebApiConfig.cs" Line="155" Column="14" />
-      <File FileName="WebApiAsambleas/Controllers/VotacionController.cs" Line="11" Column="18" />
-      <File FileName="WebApiAsambleas/Controllers/ValuesController.cs" Line="14" Column="41" />
-      <File FileName="WebApiAsambleas/Controllers/RendicionController.cs" Line="149" Column="18" />
+      <File FileName="WebApiAsambleas/Controllers/LoginController.cs" Line="37" Column="1" />
+      <File FileName="WebApiAsambleas/Controllers/CalendarioController.cs" Line="146" Column="1" />
+      <File FileName="Estado de webApiAsambleas" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WebApiAsambleas" expanded="True" selected="True">
+            <Node name="WebApiAsambleas" expanded="True">
+              <Node name="References" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/victorcoronado/Projects/PROYECTO_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/Controllers/LoginController.cs" relfile="WebApiAsambleas/Controllers/LoginController.cs" line="37" column="1" />
+      <Breakpoint file="/Users/victorcoronado/Projects/PROYECTO_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/Controllers/CalendarioController.cs" relfile="WebApiAsambleas/Controllers/CalendarioController.cs" line="100" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.WebApiAsambleas PreferredExecutionTarget="MonoDevelop.Default" />

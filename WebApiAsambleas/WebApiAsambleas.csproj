@@ -146,6 +146,12 @@
     <Reference Include="System.Web.Mvc">
       <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
     </Reference>
+    <Reference Include="VCFramework.Negocio.Factory">
+      <HintPath>..\dlls\VCFramework.Negocio.Factory.dll</HintPath>
+    </Reference>
+    <Reference Include="VCFramework.NegocioMySQL">
+      <HintPath>bin\VCFramework.NegocioMySQL.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Web.config" />
@@ -195,10 +201,6 @@
     <ProjectReference Include="..\VCFramework.EntidadFuncional\VCFramework.EntidadFuncional.csproj">
       <Project>{C6BD809D-012B-48DE-9BB3-72AE3B751D49}</Project>
       <Name>VCFramework.EntidadFuncional</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\VCFramework.NegocioMySQL\VCFramework.NegocioMySQL.csproj">
-      <Project>{47D7A452-5027-427E-AA80-1792F1836290}</Project>
-      <Name>VCFramework.NegocioMySQL</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
