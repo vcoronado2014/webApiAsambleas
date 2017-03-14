@@ -83,6 +83,17 @@ namespace VCFramework.NegocioMySQL
 
             return lista;
         }
+        public static int Modificar(VCFramework.Entidad.Tricel entidad)
+        {
+            VCFramework.Negocio.Factory.Factory fac = new Factory();
+            return fac.Update<Entidad.Tricel>(entidad, setCnsWebLun);
+        }
+
+        public static int Insertar(VCFramework.Entidad.Tricel entidad)
+        {
+            VCFramework.Negocio.Factory.Factory fac = new Factory();
+            return fac.Insertar<Entidad.Tricel>(entidad, setCnsWebLun);
+        }
         public static List<VCFramework.Entidad.Tricel> ObtenerTricelPorId(int id)
         {
             VCFramework.Negocio.Factory.Factory fac = new VCFramework.Negocio.Factory.Factory();

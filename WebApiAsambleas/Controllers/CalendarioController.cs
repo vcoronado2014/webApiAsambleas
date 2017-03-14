@@ -123,7 +123,7 @@ namespace AsambleasWeb.Controllers
             try
             {
                 VCFramework.Entidad.Calendario calendario = new VCFramework.Entidad.Calendario();
-
+				System.Globalization.CultureInfo culture = new System.Globalization.CultureInfo("es-CL");
 
                 //si es nuevo registro se inserta y no se realiza busqueda
                 if (nuevoRegistro)
@@ -133,8 +133,9 @@ namespace AsambleasWeb.Controllers
                     calendario.Detalle = titulo;
                     calendario.Eliminado = 0;
                     calendario.Etiqueta = 1;
-                    calendario.FechaInicio = Convert.ToDateTime(fechaInicio);
-                    calendario.FechaTermino = Convert.ToDateTime(fechaTermino);
+					calendario.FechaInicio = DateTime.Parse(fechaInicio, culture);
+					calendario.FechaTermino = DateTime.Parse(fechaTermino, culture);
+                    //calendario.FechaTermino = Convert.ToDateTime(fechaTermino);
                     calendario.InstId = int.Parse(instId);
                     calendario.Status = 1;
                     calendario.Tipo = 1;

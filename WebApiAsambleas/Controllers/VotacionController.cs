@@ -108,5 +108,80 @@ namespace AsambleasWeb.Controllers
 
 		}
 
-	}
+        [System.Web.Http.AcceptVerbs("PUT")]
+        public HttpResponseMessage Put(dynamic DynamicClass)
+        {
+
+            string Input = JsonConvert.SerializeObject(DynamicClass);
+
+            dynamic data = JObject.Parse(Input);
+
+            string id = data.Id;
+            if (id == null)
+                id = "0";
+
+            string instId = data.InstId;
+            string nombre = data.Nombre;
+            string objetivo = data.Objetivo;
+            string fechaInicio = data.FechaInicio;
+            string fechaTermino = data.FechaTermino;
+            string usuId = data.IdUsuario;
+            
+
+
+            HttpResponseMessage httpResponse = new HttpResponseMessage();
+            int idNuevo = 0;
+
+
+
+            try
+            {
+                VCFramework.Entidad.Tricel tricel = new VCFramework.Entidad.Tricel();
+                System.Globalization.CultureInfo culture = new System.Globalization.CultureInfo("es-CL");
+                if (id != "0")
+                {
+                    //es modificado
+                    List<VCFramework.Entidad.Tricel> triceles = VCFramework.NegocioMySQL.Tricel.ObtenerTricelPorId(int.Parse(id));
+                    if (triceles.Count == 1)
+                    {
+                        tricel = triceles[0];
+                        tricel.FechaInicio = DateTime.Parse(fechaInicio, culture);
+                        tricel.FechaTermino = DateTime.Parse(fechaTermino, culture);
+                        tricel.Nombre = nombre;
+                        tricel.Objetivo = objetivo;
+                        VCFramework.NegocioMySQL.Tricel.Modificar(tricel);
+                    }
+                }
+                else
+                {
+                    //es nuevo
+                    tricel.Eliminado = 0;
+                    tricel.EsVigente = 1;
+                    tricel.FechaInicio = DateTime.Parse(fechaInicio, culture);
+                    tricel.FechaTermino = DateTime.Parse(fechaTermino, culture);
+                    tricel.Nombre = nombre;
+                    tricel.Objetivo = objetivo;
+                    tricel.InstId = int.Parse(instId);
+                    tricel.UsuIdCreador = int.Parse(usuId);
+                    tricel.FechaCreacion = DateTime.Now;
+                    tricel.Id = VCFramework.NegocioMySQL.Tricel.Insertar(tricel);
+                }
+
+
+                httpResponse = new HttpResponseMessage(HttpStatusCode.OK);
+                String JSON = JsonConvert.SerializeObject(tricel);
+                httpResponse.Content = new StringContent(JSON);
+                httpResponse.Content.Headers.ContentType = new System.Net.Http.Headers.MediaTypeHeaderValue(VCFramework.NegocioMySQL.Utiles.JSON_DOCTYPE);
+
+            }
+            catch (Exception ex)
+            {
+                httpResponse = new HttpResponseMessage(HttpStatusCode.ExpectationFailed);
+                throw ex;
+            }
+
+            return httpResponse;
+        }
+
+    }
 }
