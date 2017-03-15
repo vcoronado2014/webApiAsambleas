@@ -149,7 +149,7 @@ namespace AsambleasWeb.Controllers
                 else
                 {
                     List<VCFramework.Entidad.Calendario> calendarios = VCFramework.NegocioMySQL.Calendario.ObtenerCalendarioPorInstId(int.Parse(instId));
-                    calendario = calendarios.Find(p => p.FechaInicio == Convert.ToDateTime(fechaInicio) && p.FechaTermino == Convert.ToDateTime(fechaTermino));
+                    calendario = calendarios.Find(p => p.FechaInicio == DateTime.Parse(fechaInicio, culture) && p.FechaTermino == DateTime.Parse(fechaTermino, culture));
                     if (calendario != null && calendario.Id > 0)
                     {
                         calendario.Asunto = titulo;

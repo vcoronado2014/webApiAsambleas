@@ -186,8 +186,20 @@ namespace WebApiAsambleas
 					controller = "Votacion"
 				}
 			);
-			#endregion
-			config.Routes.MapHttpRoute(
+            #endregion
+
+            #region  ArchivoTricel
+            config.Routes.MapHttpRoute(
+                name: "ArchivoTricel",
+                routeTemplate: "api/ArchivoTricel",
+                defaults: new
+                {
+                    controller = "ArchivoTricel"
+                }
+            );
+            #endregion
+
+            config.Routes.MapHttpRoute(
 				name: "DefaultApi",
 				routeTemplate: "api/{controller}/{id}",
 				defaults: new { id = RouteParameter.Optional }

@@ -49,3 +49,17 @@ Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\VC
 Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\VCFramework.EntidadFuncional\obj\Debug\VCFramework.EntidadFuncional.csprojResolveAssemblyReference.cache
 Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\VCFramework.EntidadFuncional\obj\Debug\VCFramework.EntidadFuncional.dll
 Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\VCFramework.EntidadFuncional\obj\Debug\VCFramework.EntidadFuncional.pdb
+D:\PROYECTO_ASAMBLEAS_MAC\WEB_API_1\webApiAsambleas\VCFramework.EntidadFuncional\bin\Debug\VCFramework.EntidadFuncional.dll.config
+D:\PROYECTO_ASAMBLEAS_MAC\WEB_API_1\webApiAsambleas\VCFramework.EntidadFuncional\bin\Debug\VCFramework.EntidadFuncional.dll
+D:\PROYECTO_ASAMBLEAS_MAC\WEB_API_1\webApiAsambleas\VCFramework.EntidadFuncional\bin\Debug\VCFramework.EntidadFuncional.pdb
+D:\PROYECTO_ASAMBLEAS_MAC\WEB_API_1\webApiAsambleas\VCFramework.EntidadFuncional\bin\Debug\Microsoft.Owin.Cors.dll
+D:\PROYECTO_ASAMBLEAS_MAC\WEB_API_1\webApiAsambleas\VCFramework.EntidadFuncional\bin\Debug\Microsoft.Owin.dll
+D:\PROYECTO_ASAMBLEAS_MAC\WEB_API_1\webApiAsambleas\VCFramework.EntidadFuncional\bin\Debug\Owin.dll
+D:\PROYECTO_ASAMBLEAS_MAC\WEB_API_1\webApiAsambleas\VCFramework.EntidadFuncional\bin\Debug\System.Web.Cors.dll
+D:\PROYECTO_ASAMBLEAS_MAC\WEB_API_1\webApiAsambleas\VCFramework.EntidadFuncional\bin\Debug\VCFramework.Entidad.dll
+D:\PROYECTO_ASAMBLEAS_MAC\WEB_API_1\webApiAsambleas\VCFramework.EntidadFuncional\bin\Debug\VCFramework.Entidad.pdb
+D:\PROYECTO_ASAMBLEAS_MAC\WEB_API_1\webApiAsambleas\VCFramework.EntidadFuncional\bin\Debug\Microsoft.Owin.xml
+D:\PROYECTO_ASAMBLEAS_MAC\WEB_API_1\webApiAsambleas\VCFramework.EntidadFuncional\bin\Debug\Microsoft.Owin.Cors.xml
+D:\PROYECTO_ASAMBLEAS_MAC\WEB_API_1\webApiAsambleas\VCFramework.EntidadFuncional\obj\Debug\VCFramework.EntidadFuncional.csprojResolveAssemblyReference.cache
+D:\PROYECTO_ASAMBLEAS_MAC\WEB_API_1\webApiAsambleas\VCFramework.EntidadFuncional\obj\Debug\VCFramework.EntidadFuncional.dll
+D:\PROYECTO_ASAMBLEAS_MAC\WEB_API_1\webApiAsambleas\VCFramework.EntidadFuncional\obj\Debug\VCFramework.EntidadFuncional.pdb
