@@ -13,3 +13,14 @@ D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\VCFramework.EntidadFuncional\b
 D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\VCFramework.EntidadFuncional\bin\Release\Microsoft.Owin.Cors.xml
 D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\VCFramework.EntidadFuncional\obj\Release\VCFramework.EntidadFuncional.csprojResolveAssemblyReference.cache
 D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\VCFramework.EntidadFuncional\obj\Release\VCFramework.EntidadFuncional.dll
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\VCFramework.EntidadFuncional\bin\Release\VCFramework.EntidadFuncional.dll.config
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\VCFramework.EntidadFuncional\bin\Release\VCFramework.EntidadFuncional.dll
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\VCFramework.EntidadFuncional\bin\Release\Microsoft.Owin.Cors.dll
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\VCFramework.EntidadFuncional\bin\Release\Microsoft.Owin.dll
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\VCFramework.EntidadFuncional\bin\Release\Owin.dll
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\VCFramework.EntidadFuncional\bin\Release\System.Web.Cors.dll
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\VCFramework.EntidadFuncional\bin\Release\VCFramework.Entidad.dll
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\VCFramework.EntidadFuncional\bin\Release\Microsoft.Owin.xml
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\VCFramework.EntidadFuncional\bin\Release\Microsoft.Owin.Cors.xml
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\VCFramework.EntidadFuncional\obj\Release\VCFramework.EntidadFuncional.csprojResolveAssemblyReference.cache
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\VCFramework.EntidadFuncional\obj\Release\VCFramework.EntidadFuncional.dll

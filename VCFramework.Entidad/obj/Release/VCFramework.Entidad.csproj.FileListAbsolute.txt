@@ -10,3 +10,13 @@ D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\VCFramework.Entidad\bin\Releas
 D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\VCFramework.Entidad\bin\Release\Microsoft.Owin.Cors.xml
 D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\VCFramework.Entidad\obj\Release\VCFramework.Entidad.csprojResolveAssemblyReference.cache
 D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\VCFramework.Entidad\obj\Release\VCFramework.Entidad.dll
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\VCFramework.Entidad\bin\Release\VCFramework.Entidad.dll.config
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\VCFramework.Entidad\bin\Release\VCFramework.Entidad.dll
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\VCFramework.Entidad\bin\Release\Microsoft.Owin.Cors.dll
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\VCFramework.Entidad\bin\Release\Microsoft.Owin.dll
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\VCFramework.Entidad\bin\Release\Owin.dll
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\VCFramework.Entidad\bin\Release\System.Web.Cors.dll
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\VCFramework.Entidad\bin\Release\Microsoft.Owin.xml
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\VCFramework.Entidad\bin\Release\Microsoft.Owin.Cors.xml
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\VCFramework.Entidad\obj\Release\VCFramework.Entidad.csprojResolveAssemblyReference.cache
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\VCFramework.Entidad\obj\Release\VCFramework.Entidad.dll

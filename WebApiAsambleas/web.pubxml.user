@@ -6,128 +6,128 @@ by editing this MSBuild file. In order to learn more about this please visit htt
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <_PublishTargetUrl>D:\deploy_api_asambleas</_PublishTargetUrl>
+    <_PublishTargetUrl>C:\deploy_api</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/App_global.asax.compiled">
-      <publishTime>03/13/2017 18:08:00</publishTime>
+      <publishTime>03/14/2017 22:52:42</publishTime>
     </File>
     <File Include="bin/App_global.asax.dll">
-      <publishTime>03/13/2017 18:08:00</publishTime>
+      <publishTime>03/14/2017 22:52:42</publishTime>
     </File>
     <File Include="bin/EntityFramework.dll">
-      <publishTime>02/25/2014 01:34:42</publishTime>
+      <publishTime>03/14/2017 21:43:39</publishTime>
     </File>
     <File Include="bin/EntityFramework.SqlServer.dll">
-      <publishTime>02/25/2014 01:34:42</publishTime>
+      <publishTime>03/14/2017 21:43:39</publishTime>
     </File>
     <File Include="bin/Microsoft.AspNet.Identity.Core.dll">
-      <publishTime>04/03/2015 17:07:22</publishTime>
+      <publishTime>03/14/2017 21:43:39</publishTime>
     </File>
     <File Include="bin/Microsoft.AspNet.Identity.EntityFramework.dll">
-      <publishTime>04/03/2015 17:07:22</publishTime>
+      <publishTime>03/14/2017 21:43:39</publishTime>
     </File>
     <File Include="bin/Microsoft.AspNet.Identity.Owin.dll">
-      <publishTime>04/03/2015 17:07:22</publishTime>
+      <publishTime>03/14/2017 21:43:39</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.Cors.dll">
-      <publishTime>02/13/2015 13:16:32</publishTime>
+      <publishTime>03/14/2017 21:43:39</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.dll">
-      <publishTime>02/13/2015 13:16:30</publishTime>
+      <publishTime>03/14/2017 21:43:39</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.Host.HttpListener.dll">
-      <publishTime>11/07/2013 15:22:00</publishTime>
+      <publishTime>03/14/2017 21:43:39</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.Host.SystemWeb.dll">
-      <publishTime>02/13/2015 13:16:34</publishTime>
+      <publishTime>03/14/2017 21:43:39</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.Hosting.dll">
-      <publishTime>11/07/2013 15:22:04</publishTime>
+      <publishTime>03/14/2017 21:43:39</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.Security.Cookies.dll">
-      <publishTime>01/13/2014 16:11:10</publishTime>
+      <publishTime>03/14/2017 21:43:39</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.Security.dll">
-      <publishTime>02/13/2015 13:16:36</publishTime>
+      <publishTime>03/14/2017 21:43:39</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.Security.Google.dll">
-      <publishTime>02/13/2015 13:16:38</publishTime>
+      <publishTime>03/14/2017 21:43:39</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.Security.OAuth.dll">
-      <publishTime>02/13/2015 13:16:40</publishTime>
+      <publishTime>03/14/2017 21:43:39</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
-      <publishTime>07/25/2012 11:48:56</publishTime>
+      <publishTime>03/14/2017 21:43:39</publishTime>
     </File>
     <File Include="bin/Newtonsoft.Json.dll">
-      <publishTime>01/11/2015 19:54:54</publishTime>
+      <publishTime>03/14/2017 21:43:39</publishTime>
     </File>
     <File Include="bin/Owin.dll">
-      <publishTime>11/13/2012 12:19:34</publishTime>
+      <publishTime>03/14/2017 21:43:40</publishTime>
     </File>
     <File Include="bin/System.Net.Http.Formatting.dll">
-      <publishTime>01/28/2015 04:02:42</publishTime>
+      <publishTime>03/14/2017 21:43:39</publishTime>
     </File>
     <File Include="bin/System.Web.Cors.dll">
-      <publishTime>01/28/2015 04:01:46</publishTime>
+      <publishTime>03/14/2017 21:43:39</publishTime>
     </File>
     <File Include="bin/System.Web.Helpers.dll">
-      <publishTime>01/28/2015 04:04:30</publishTime>
+      <publishTime>03/14/2017 21:43:39</publishTime>
     </File>
     <File Include="bin/System.Web.Http.Cors.dll">
-      <publishTime>01/28/2015 04:03:04</publishTime>
+      <publishTime>03/14/2017 21:43:39</publishTime>
     </File>
     <File Include="bin/System.Web.Http.dll">
-      <publishTime>01/28/2015 04:02:54</publishTime>
+      <publishTime>03/14/2017 21:43:39</publishTime>
     </File>
     <File Include="bin/System.Web.Http.Owin.dll">
-      <publishTime>01/28/2015 04:03:16</publishTime>
+      <publishTime>03/14/2017 21:43:39</publishTime>
     </File>
     <File Include="bin/System.Web.Http.WebHost.dll">
-      <publishTime>01/28/2015 04:03:46</publishTime>
+      <publishTime>03/14/2017 21:43:39</publishTime>
     </File>
     <File Include="bin/System.Web.Mvc.dll">
-      <publishTime>01/28/2015 04:02:18</publishTime>
+      <publishTime>03/14/2017 21:43:39</publishTime>
     </File>
     <File Include="bin/System.Web.Optimization.dll">
-      <publishTime>02/11/2014 16:26:04</publishTime>
+      <publishTime>03/14/2017 21:43:39</publishTime>
     </File>
     <File Include="bin/System.Web.Razor.dll">
-      <publishTime>01/28/2015 04:02:32</publishTime>
+      <publishTime>03/14/2017 21:43:39</publishTime>
     </File>
     <File Include="bin/System.Web.WebPages.Deployment.dll">
-      <publishTime>01/28/2015 04:04:30</publishTime>
+      <publishTime>03/14/2017 21:43:39</publishTime>
     </File>
     <File Include="bin/System.Web.WebPages.dll">
-      <publishTime>01/28/2015 04:04:30</publishTime>
+      <publishTime>03/14/2017 21:43:39</publishTime>
     </File>
     <File Include="bin/System.Web.WebPages.Razor.dll">
-      <publishTime>01/28/2015 04:04:30</publishTime>
+      <publishTime>03/14/2017 21:43:39</publishTime>
     </File>
     <File Include="bin/VCFramework.Entidad.dll">
-      <publishTime>03/13/2017 18:07:54</publishTime>
+      <publishTime>03/14/2017 21:58:19</publishTime>
     </File>
     <File Include="bin/VCFramework.EntidadFuncional.dll">
-      <publishTime>03/13/2017 18:07:54</publishTime>
+      <publishTime>03/14/2017 21:58:20</publishTime>
     </File>
     <File Include="bin/VCFramework.Negocio.Factory.dll">
-      <publishTime>08/19/2016 12:41:36</publishTime>
+      <publishTime>03/14/2017 21:43:39</publishTime>
     </File>
     <File Include="bin/VCFramework.NegocioMySQL.dll">
-      <publishTime>03/13/2017 18:07:55</publishTime>
+      <publishTime>03/14/2017 21:58:21</publishTime>
     </File>
     <File Include="bin/WebApiAsambleas.dll">
-      <publishTime>03/13/2017 18:07:57</publishTime>
+      <publishTime>03/14/2017 22:52:37</publishTime>
     </File>
     <File Include="packages.config">
-      <publishTime>03/13/2017 11:49:13</publishTime>
+      <publishTime>03/14/2017 21:43:39</publishTime>
     </File>
     <File Include="PrecompiledApp.config">
-      <publishTime>03/13/2017 18:07:58</publishTime>
+      <publishTime>03/14/2017 22:52:39</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>03/13/2017 11:49:13</publishTime>
+      <publishTime>03/14/2017 21:48:15</publishTime>
     </File>
   </ItemGroup>
 </Project>

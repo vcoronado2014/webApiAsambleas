@@ -79,13 +79,8 @@ namespace AsambleasWeb.Controllers
 						us.OtroCuatro = listas.Count.ToString();
 						//us.UrlDocumento = insti.UrlDocumento;
 
-						us.Url = "CrearModificarVotacion.aspx?id=" + us.Id.ToString() + "&ELIMINAR=0";
-						us.UrlEliminar = "CrearModificarVotacion.aspx?id=" + us.Id.ToString() + "&ELIMINAR=1";
-						//string urlll = Request.RequestUri.GetLeftPart(UriPartial.Authority) + "/Repositorio/";
-						//if (us.UrlDocumento != null && us.UrlDocumento != "" && us.UrlDocumento != "#")
-						//    us.Rol = urlll + us.UrlDocumento;
-						//else
-						//    us.Rol = "#";
+						us.Url = "CrearModificarVotacion.html?id=" + us.Id.ToString() + "&ELIMINAR=0";
+						us.UrlEliminar = "CrearModificarVotacion.html?id=" + us.Id.ToString() + "&ELIMINAR=1";
 
 
 						votaciones.proposals.Add(us);
@@ -181,6 +176,53 @@ namespace AsambleasWeb.Controllers
             }
 
             return httpResponse;
+        }
+
+        [System.Web.Http.AcceptVerbs("DELETE")]
+        public HttpResponseMessage Delete(dynamic DynamicClass)
+        {
+
+            string Input = JsonConvert.SerializeObject(DynamicClass);
+
+            dynamic data = JObject.Parse(Input);
+
+            //validaciones antes de ejecutar la llamada.
+            if (data.Id == 0)
+                throw new ArgumentNullException("Id");
+
+            HttpResponseMessage httpResponse = new HttpResponseMessage();
+
+            try
+            {
+                string id = data.Id;
+                int idBuscar = int.Parse(id);
+
+
+                VCFramework.Entidad.Tricel inst = VCFramework.NegocioMySQL.Tricel.ObtenerTricelPorId(idBuscar)[0];
+
+                if (inst != null && inst.Id > 0)
+                {
+                    inst.Eliminado = 1;
+
+
+                    VCFramework.NegocioMySQL.Tricel.Modificar(inst);
+
+                    httpResponse = new HttpResponseMessage(HttpStatusCode.OK);
+                    String JSON = JsonConvert.SerializeObject(inst);
+                    httpResponse.Content = new StringContent(JSON);
+                    httpResponse.Content.Headers.ContentType = new System.Net.Http.Headers.MediaTypeHeaderValue(VCFramework.NegocioMySQL.Utiles.JSON_DOCTYPE);
+
+                }
+
+
+            }
+            catch (Exception ex)
+            {
+                httpResponse = new HttpResponseMessage(HttpStatusCode.ExpectationFailed);
+                throw ex;
+            }
+            return httpResponse;
+
         }
 
     }
