@@ -64,139 +64,207 @@
 /Users/victorcoronado/Projects/WebApiAsambleas/WebApiAsambleas/obj/Debug/WebApiAsambleas.csprojResolveAssemblyReference.cache
 /Users/victorcoronado/Projects/WebApiAsambleas/WebApiAsambleas/obj/Debug/WebApiAsambleas.dll
 /Users/victorcoronado/Projects/WebApiAsambleas/WebApiAsambleas/obj/Debug/WebApiAsambleas.dll.mdb
-D:\ASAMBLEAS_MAC\WebApiAsambleas\bin\WebApiAsambleas.dll.config
-D:\ASAMBLEAS_MAC\WebApiAsambleas\bin\WebApiAsambleas.dll
-D:\ASAMBLEAS_MAC\WebApiAsambleas\bin\WebApiAsambleas.pdb
-D:\ASAMBLEAS_MAC\WebApiAsambleas\bin\EntityFramework.dll
-D:\ASAMBLEAS_MAC\WebApiAsambleas\bin\EntityFramework.SqlServer.dll
-D:\ASAMBLEAS_MAC\WebApiAsambleas\bin\Microsoft.AspNet.Identity.Core.dll
-D:\ASAMBLEAS_MAC\WebApiAsambleas\bin\Microsoft.AspNet.Identity.EntityFramework.dll
-D:\ASAMBLEAS_MAC\WebApiAsambleas\bin\Microsoft.AspNet.Identity.Owin.dll
-D:\ASAMBLEAS_MAC\WebApiAsambleas\bin\Microsoft.Owin.dll
-D:\ASAMBLEAS_MAC\WebApiAsambleas\bin\Microsoft.Owin.Host.HttpListener.dll
-D:\ASAMBLEAS_MAC\WebApiAsambleas\bin\Microsoft.Owin.Host.SystemWeb.dll
-D:\ASAMBLEAS_MAC\WebApiAsambleas\bin\Microsoft.Owin.Hosting.dll
-D:\ASAMBLEAS_MAC\WebApiAsambleas\bin\Microsoft.Owin.Security.Cookies.dll
-D:\ASAMBLEAS_MAC\WebApiAsambleas\bin\Microsoft.Owin.Security.dll
-D:\ASAMBLEAS_MAC\WebApiAsambleas\bin\Microsoft.Owin.Security.Google.dll
-D:\ASAMBLEAS_MAC\WebApiAsambleas\bin\Microsoft.Owin.Security.OAuth.dll
-D:\ASAMBLEAS_MAC\WebApiAsambleas\bin\Microsoft.Web.Infrastructure.dll
-D:\ASAMBLEAS_MAC\WebApiAsambleas\bin\Newtonsoft.Json.dll
-D:\ASAMBLEAS_MAC\WebApiAsambleas\bin\Owin.dll
-D:\ASAMBLEAS_MAC\WebApiAsambleas\bin\System.Net.Http.Formatting.dll
-D:\ASAMBLEAS_MAC\WebApiAsambleas\bin\System.Web.Helpers.dll
-D:\ASAMBLEAS_MAC\WebApiAsambleas\bin\System.Web.Http.Cors.dll
-D:\ASAMBLEAS_MAC\WebApiAsambleas\bin\System.Web.Http.dll
-D:\ASAMBLEAS_MAC\WebApiAsambleas\bin\System.Web.Http.Owin.dll
-D:\ASAMBLEAS_MAC\WebApiAsambleas\bin\System.Web.Http.WebHost.dll
-D:\ASAMBLEAS_MAC\WebApiAsambleas\bin\System.Web.Mvc.dll
-D:\ASAMBLEAS_MAC\WebApiAsambleas\bin\System.Web.Optimization.dll
-D:\ASAMBLEAS_MAC\WebApiAsambleas\bin\System.Web.Razor.dll
-D:\ASAMBLEAS_MAC\WebApiAsambleas\bin\System.Web.WebPages.Deployment.dll
-D:\ASAMBLEAS_MAC\WebApiAsambleas\bin\System.Web.WebPages.dll
-D:\ASAMBLEAS_MAC\WebApiAsambleas\bin\System.Web.WebPages.Razor.dll
-D:\ASAMBLEAS_MAC\WebApiAsambleas\bin\VCFramework.Entidad.dll
-D:\ASAMBLEAS_MAC\WebApiAsambleas\bin\VCFramework.EntidadFuncional.dll
-D:\ASAMBLEAS_MAC\WebApiAsambleas\bin\VCFramework.NegocioMySQL.dll
-D:\ASAMBLEAS_MAC\WebApiAsambleas\bin\VCFramework.Negocio.Factory.dll
-D:\ASAMBLEAS_MAC\WebApiAsambleas\bin\System.Web.Cors.dll
-D:\ASAMBLEAS_MAC\WebApiAsambleas\bin\VCFramework.Entidad.pdb
-D:\ASAMBLEAS_MAC\WebApiAsambleas\bin\VCFramework.EntidadFuncional.pdb
-D:\ASAMBLEAS_MAC\WebApiAsambleas\bin\VCFramework.NegocioMySQL.pdb
-D:\ASAMBLEAS_MAC\WebApiAsambleas\bin\System.Net.Http.Formatting.xml
-D:\ASAMBLEAS_MAC\WebApiAsambleas\bin\System.Web.Http.xml
-D:\ASAMBLEAS_MAC\WebApiAsambleas\bin\System.Web.Http.WebHost.xml
-D:\ASAMBLEAS_MAC\WebApiAsambleas\bin\Newtonsoft.Json.xml
-D:\ASAMBLEAS_MAC\WebApiAsambleas\bin\Microsoft.Owin.xml
-D:\ASAMBLEAS_MAC\WebApiAsambleas\bin\Microsoft.Owin.Security.xml
-D:\ASAMBLEAS_MAC\WebApiAsambleas\bin\Microsoft.Owin.Security.OAuth.xml
-D:\ASAMBLEAS_MAC\WebApiAsambleas\bin\Microsoft.Owin.Host.SystemWeb.xml
-D:\ASAMBLEAS_MAC\WebApiAsambleas\bin\Microsoft.Owin.Host.HttpListener.xml
-D:\ASAMBLEAS_MAC\WebApiAsambleas\bin\System.Web.Http.Owin.xml
-D:\ASAMBLEAS_MAC\WebApiAsambleas\bin\Microsoft.Owin.Hosting.xml
-D:\ASAMBLEAS_MAC\WebApiAsambleas\bin\Microsoft.AspNet.Identity.Core.xml
-D:\ASAMBLEAS_MAC\WebApiAsambleas\bin\Microsoft.Owin.Security.Cookies.xml
-D:\ASAMBLEAS_MAC\WebApiAsambleas\bin\Microsoft.AspNet.Identity.Owin.xml
-D:\ASAMBLEAS_MAC\WebApiAsambleas\bin\EntityFramework.xml
-D:\ASAMBLEAS_MAC\WebApiAsambleas\bin\EntityFramework.SqlServer.xml
-D:\ASAMBLEAS_MAC\WebApiAsambleas\bin\Microsoft.AspNet.Identity.EntityFramework.xml
-D:\ASAMBLEAS_MAC\WebApiAsambleas\bin\Microsoft.Owin.Security.Google.xml
-D:\ASAMBLEAS_MAC\WebApiAsambleas\bin\System.Web.Razor.xml
-D:\ASAMBLEAS_MAC\WebApiAsambleas\bin\System.Web.Helpers.xml
-D:\ASAMBLEAS_MAC\WebApiAsambleas\bin\System.Web.WebPages.Deployment.xml
-D:\ASAMBLEAS_MAC\WebApiAsambleas\bin\System.Web.WebPages.xml
-D:\ASAMBLEAS_MAC\WebApiAsambleas\bin\System.Web.WebPages.Razor.xml
-D:\ASAMBLEAS_MAC\WebApiAsambleas\bin\System.Web.Mvc.xml
-D:\ASAMBLEAS_MAC\WebApiAsambleas\obj\Debug\WebApiAsambleas.csprojResolveAssemblyReference.cache
-D:\ASAMBLEAS_MAC\WebApiAsambleas\obj\Debug\WebApiAsambleas.dll
-D:\ASAMBLEAS_MAC\WebApiAsambleas\obj\Debug\WebApiAsambleas.pdb
-D:\ASAMBLEAS_MAC\WebApiAsambleas\bin\Microsoft.Owin.Cors.dll
-D:\ASAMBLEAS_MAC\WebApiAsambleas\bin\Microsoft.Owin.Cors.xml
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\bin\WebApiAsambleas.dll.config
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\bin\WebApiAsambleas.dll
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\bin\WebApiAsambleas.pdb
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\bin\EntityFramework.dll
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\bin\EntityFramework.SqlServer.dll
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\bin\Microsoft.AspNet.Identity.Core.dll
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\bin\Microsoft.AspNet.Identity.EntityFramework.dll
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\bin\Microsoft.AspNet.Identity.Owin.dll
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\bin\Microsoft.Owin.Cors.dll
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\bin\Microsoft.Owin.dll
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\bin\Microsoft.Owin.Host.HttpListener.dll
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\bin\Microsoft.Owin.Host.SystemWeb.dll
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\bin\Microsoft.Owin.Hosting.dll
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\bin\Microsoft.Owin.Security.Cookies.dll
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\bin\Microsoft.Owin.Security.dll
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\bin\Microsoft.Owin.Security.Google.dll
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\bin\Microsoft.Owin.Security.OAuth.dll
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\bin\Microsoft.Web.Infrastructure.dll
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\bin\Newtonsoft.Json.dll
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\bin\Owin.dll
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\bin\System.Net.Http.Formatting.dll
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\bin\System.Web.Cors.dll
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\bin\System.Web.Helpers.dll
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\bin\System.Web.Http.Cors.dll
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\bin\System.Web.Http.dll
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\bin\System.Web.Http.Owin.dll
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\bin\System.Web.Http.WebHost.dll
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\bin\System.Web.Mvc.dll
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\bin\System.Web.Optimization.dll
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\bin\System.Web.Razor.dll
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\bin\System.Web.WebPages.Deployment.dll
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\bin\System.Web.WebPages.dll
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\bin\System.Web.WebPages.Razor.dll
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\bin\VCFramework.Entidad.dll
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\bin\VCFramework.EntidadFuncional.dll
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\bin\VCFramework.NegocioMySQL.dll
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\bin\VCFramework.Negocio.Factory.dll
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\bin\VCFramework.Entidad.pdb
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\bin\VCFramework.EntidadFuncional.pdb
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\bin\VCFramework.NegocioMySQL.pdb
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\bin\Microsoft.Owin.Cors.xml
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\bin\System.Net.Http.Formatting.xml
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\bin\System.Web.Http.xml
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\bin\System.Web.Http.WebHost.xml
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\bin\Newtonsoft.Json.xml
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\bin\Microsoft.Owin.xml
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\bin\Microsoft.Owin.Security.xml
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\bin\Microsoft.Owin.Security.OAuth.xml
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\bin\Microsoft.Owin.Host.SystemWeb.xml
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\bin\Microsoft.Owin.Host.HttpListener.xml
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\bin\System.Web.Http.Owin.xml
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\bin\Microsoft.Owin.Hosting.xml
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\bin\Microsoft.AspNet.Identity.Core.xml
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\bin\Microsoft.Owin.Security.Cookies.xml
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\bin\Microsoft.AspNet.Identity.Owin.xml
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\bin\EntityFramework.xml
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\bin\EntityFramework.SqlServer.xml
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\bin\Microsoft.AspNet.Identity.EntityFramework.xml
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\bin\Microsoft.Owin.Security.Google.xml
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\bin\System.Web.Razor.xml
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\bin\System.Web.Helpers.xml
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\bin\System.Web.WebPages.Deployment.xml
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\bin\System.Web.WebPages.xml
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\bin\System.Web.WebPages.Razor.xml
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\bin\System.Web.Mvc.xml
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\obj\Debug\WebApiAsambleas.csprojResolveAssemblyReference.cache
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\obj\Debug\WebApiAsambleas.dll
-D:\PROYECTO_ASAMBLEAS_MAC\WEB_API\webApiAsambleas\WebApiAsambleas\obj\Debug\WebApiAsambleas.pdb
+D:/ASAMBLEAS_MAC/WebApiAsambleas/bin/WebApiAsambleas.dll.config
+D:/ASAMBLEAS_MAC/WebApiAsambleas/bin/WebApiAsambleas.dll
+D:/ASAMBLEAS_MAC/WebApiAsambleas/bin/WebApiAsambleas.pdb
+D:/ASAMBLEAS_MAC/WebApiAsambleas/bin/EntityFramework.dll
+D:/ASAMBLEAS_MAC/WebApiAsambleas/bin/EntityFramework.SqlServer.dll
+D:/ASAMBLEAS_MAC/WebApiAsambleas/bin/Microsoft.AspNet.Identity.Core.dll
+D:/ASAMBLEAS_MAC/WebApiAsambleas/bin/Microsoft.AspNet.Identity.EntityFramework.dll
+D:/ASAMBLEAS_MAC/WebApiAsambleas/bin/Microsoft.AspNet.Identity.Owin.dll
+D:/ASAMBLEAS_MAC/WebApiAsambleas/bin/Microsoft.Owin.dll
+D:/ASAMBLEAS_MAC/WebApiAsambleas/bin/Microsoft.Owin.Host.HttpListener.dll
+D:/ASAMBLEAS_MAC/WebApiAsambleas/bin/Microsoft.Owin.Host.SystemWeb.dll
+D:/ASAMBLEAS_MAC/WebApiAsambleas/bin/Microsoft.Owin.Hosting.dll
+D:/ASAMBLEAS_MAC/WebApiAsambleas/bin/Microsoft.Owin.Security.Cookies.dll
+D:/ASAMBLEAS_MAC/WebApiAsambleas/bin/Microsoft.Owin.Security.dll
+D:/ASAMBLEAS_MAC/WebApiAsambleas/bin/Microsoft.Owin.Security.Google.dll
+D:/ASAMBLEAS_MAC/WebApiAsambleas/bin/Microsoft.Owin.Security.OAuth.dll
+D:/ASAMBLEAS_MAC/WebApiAsambleas/bin/Microsoft.Web.Infrastructure.dll
+D:/ASAMBLEAS_MAC/WebApiAsambleas/bin/Newtonsoft.Json.dll
+D:/ASAMBLEAS_MAC/WebApiAsambleas/bin/Owin.dll
+D:/ASAMBLEAS_MAC/WebApiAsambleas/bin/System.Net.Http.Formatting.dll
+D:/ASAMBLEAS_MAC/WebApiAsambleas/bin/System.Web.Helpers.dll
+D:/ASAMBLEAS_MAC/WebApiAsambleas/bin/System.Web.Http.Cors.dll
+D:/ASAMBLEAS_MAC/WebApiAsambleas/bin/System.Web.Http.dll
+D:/ASAMBLEAS_MAC/WebApiAsambleas/bin/System.Web.Http.Owin.dll
+D:/ASAMBLEAS_MAC/WebApiAsambleas/bin/System.Web.Http.WebHost.dll
+D:/ASAMBLEAS_MAC/WebApiAsambleas/bin/System.Web.Mvc.dll
+D:/ASAMBLEAS_MAC/WebApiAsambleas/bin/System.Web.Optimization.dll
+D:/ASAMBLEAS_MAC/WebApiAsambleas/bin/System.Web.Razor.dll
+D:/ASAMBLEAS_MAC/WebApiAsambleas/bin/System.Web.WebPages.Deployment.dll
+D:/ASAMBLEAS_MAC/WebApiAsambleas/bin/System.Web.WebPages.dll
+D:/ASAMBLEAS_MAC/WebApiAsambleas/bin/System.Web.WebPages.Razor.dll
+D:/ASAMBLEAS_MAC/WebApiAsambleas/bin/VCFramework.Entidad.dll
+D:/ASAMBLEAS_MAC/WebApiAsambleas/bin/VCFramework.EntidadFuncional.dll
+D:/ASAMBLEAS_MAC/WebApiAsambleas/bin/VCFramework.NegocioMySQL.dll
+D:/ASAMBLEAS_MAC/WebApiAsambleas/bin/VCFramework.Negocio.Factory.dll
+D:/ASAMBLEAS_MAC/WebApiAsambleas/bin/System.Web.Cors.dll
+D:/ASAMBLEAS_MAC/WebApiAsambleas/bin/VCFramework.Entidad.pdb
+D:/ASAMBLEAS_MAC/WebApiAsambleas/bin/VCFramework.EntidadFuncional.pdb
+D:/ASAMBLEAS_MAC/WebApiAsambleas/bin/VCFramework.NegocioMySQL.pdb
+D:/ASAMBLEAS_MAC/WebApiAsambleas/bin/System.Net.Http.Formatting.xml
+D:/ASAMBLEAS_MAC/WebApiAsambleas/bin/System.Web.Http.xml
+D:/ASAMBLEAS_MAC/WebApiAsambleas/bin/System.Web.Http.WebHost.xml
+D:/ASAMBLEAS_MAC/WebApiAsambleas/bin/Newtonsoft.Json.xml
+D:/ASAMBLEAS_MAC/WebApiAsambleas/bin/Microsoft.Owin.xml
+D:/ASAMBLEAS_MAC/WebApiAsambleas/bin/Microsoft.Owin.Security.xml
+D:/ASAMBLEAS_MAC/WebApiAsambleas/bin/Microsoft.Owin.Security.OAuth.xml
+D:/ASAMBLEAS_MAC/WebApiAsambleas/bin/Microsoft.Owin.Host.SystemWeb.xml
+D:/ASAMBLEAS_MAC/WebApiAsambleas/bin/Microsoft.Owin.Host.HttpListener.xml
+D:/ASAMBLEAS_MAC/WebApiAsambleas/bin/System.Web.Http.Owin.xml
+D:/ASAMBLEAS_MAC/WebApiAsambleas/bin/Microsoft.Owin.Hosting.xml
+D:/ASAMBLEAS_MAC/WebApiAsambleas/bin/Microsoft.AspNet.Identity.Core.xml
+D:/ASAMBLEAS_MAC/WebApiAsambleas/bin/Microsoft.Owin.Security.Cookies.xml
+D:/ASAMBLEAS_MAC/WebApiAsambleas/bin/Microsoft.AspNet.Identity.Owin.xml
+D:/ASAMBLEAS_MAC/WebApiAsambleas/bin/EntityFramework.xml
+D:/ASAMBLEAS_MAC/WebApiAsambleas/bin/EntityFramework.SqlServer.xml
+D:/ASAMBLEAS_MAC/WebApiAsambleas/bin/Microsoft.AspNet.Identity.EntityFramework.xml
+D:/ASAMBLEAS_MAC/WebApiAsambleas/bin/Microsoft.Owin.Security.Google.xml
+D:/ASAMBLEAS_MAC/WebApiAsambleas/bin/System.Web.Razor.xml
+D:/ASAMBLEAS_MAC/WebApiAsambleas/bin/System.Web.Helpers.xml
+D:/ASAMBLEAS_MAC/WebApiAsambleas/bin/System.Web.WebPages.Deployment.xml
+D:/ASAMBLEAS_MAC/WebApiAsambleas/bin/System.Web.WebPages.xml
+D:/ASAMBLEAS_MAC/WebApiAsambleas/bin/System.Web.WebPages.Razor.xml
+D:/ASAMBLEAS_MAC/WebApiAsambleas/bin/System.Web.Mvc.xml
+D:/ASAMBLEAS_MAC/WebApiAsambleas/obj/Debug/WebApiAsambleas.csprojResolveAssemblyReference.cache
+D:/ASAMBLEAS_MAC/WebApiAsambleas/obj/Debug/WebApiAsambleas.dll
+D:/ASAMBLEAS_MAC/WebApiAsambleas/obj/Debug/WebApiAsambleas.pdb
+D:/ASAMBLEAS_MAC/WebApiAsambleas/bin/Microsoft.Owin.Cors.dll
+D:/ASAMBLEAS_MAC/WebApiAsambleas/bin/Microsoft.Owin.Cors.xml
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/bin/WebApiAsambleas.dll.config
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/bin/WebApiAsambleas.dll
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/bin/WebApiAsambleas.pdb
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/bin/EntityFramework.dll
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/bin/EntityFramework.SqlServer.dll
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/bin/Microsoft.AspNet.Identity.Core.dll
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/bin/Microsoft.AspNet.Identity.EntityFramework.dll
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/bin/Microsoft.AspNet.Identity.Owin.dll
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/bin/Microsoft.Owin.Cors.dll
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/bin/Microsoft.Owin.dll
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/bin/Microsoft.Owin.Host.HttpListener.dll
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/bin/Microsoft.Owin.Host.SystemWeb.dll
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/bin/Microsoft.Owin.Hosting.dll
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/bin/Microsoft.Owin.Security.Cookies.dll
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/bin/Microsoft.Owin.Security.dll
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/bin/Microsoft.Owin.Security.Google.dll
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/bin/Microsoft.Owin.Security.OAuth.dll
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/bin/Microsoft.Web.Infrastructure.dll
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/bin/Newtonsoft.Json.dll
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/bin/Owin.dll
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/bin/System.Net.Http.Formatting.dll
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/bin/System.Web.Cors.dll
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/bin/System.Web.Helpers.dll
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/bin/System.Web.Http.Cors.dll
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/bin/System.Web.Http.dll
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/bin/System.Web.Http.Owin.dll
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/bin/System.Web.Http.WebHost.dll
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/bin/System.Web.Mvc.dll
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/bin/System.Web.Optimization.dll
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/bin/System.Web.Razor.dll
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/bin/System.Web.WebPages.Deployment.dll
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/bin/System.Web.WebPages.dll
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/bin/System.Web.WebPages.Razor.dll
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/bin/VCFramework.Entidad.dll
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/bin/VCFramework.EntidadFuncional.dll
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/bin/VCFramework.NegocioMySQL.dll
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/bin/VCFramework.Negocio.Factory.dll
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/bin/VCFramework.Entidad.pdb
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/bin/VCFramework.EntidadFuncional.pdb
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/bin/VCFramework.NegocioMySQL.pdb
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/bin/Microsoft.Owin.Cors.xml
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/bin/System.Net.Http.Formatting.xml
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/bin/System.Web.Http.xml
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/bin/System.Web.Http.WebHost.xml
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/bin/Newtonsoft.Json.xml
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/bin/Microsoft.Owin.xml
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/bin/Microsoft.Owin.Security.xml
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/bin/Microsoft.Owin.Security.OAuth.xml
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/bin/Microsoft.Owin.Host.SystemWeb.xml
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/bin/Microsoft.Owin.Host.HttpListener.xml
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/bin/System.Web.Http.Owin.xml
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/bin/Microsoft.Owin.Hosting.xml
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/bin/Microsoft.AspNet.Identity.Core.xml
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/bin/Microsoft.Owin.Security.Cookies.xml
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/bin/Microsoft.AspNet.Identity.Owin.xml
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/bin/EntityFramework.xml
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/bin/EntityFramework.SqlServer.xml
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/bin/Microsoft.AspNet.Identity.EntityFramework.xml
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/bin/Microsoft.Owin.Security.Google.xml
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/bin/System.Web.Razor.xml
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/bin/System.Web.Helpers.xml
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/bin/System.Web.WebPages.Deployment.xml
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/bin/System.Web.WebPages.xml
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/bin/System.Web.WebPages.Razor.xml
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/bin/System.Web.Mvc.xml
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/obj/Debug/WebApiAsambleas.csprojResolveAssemblyReference.cache
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/obj/Debug/WebApiAsambleas.dll
+D:/PROYECTO_ASAMBLEAS_MAC/WEB_API/webApiAsambleas/WebApiAsambleas/obj/Debug/WebApiAsambleas.pdb
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\bin\WebApiAsambleas.dll.config
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\bin\WebApiAsambleas.dll
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\bin\WebApiAsambleas.pdb
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\bin\EntityFramework.dll
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\bin\EntityFramework.SqlServer.dll
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\bin\Microsoft.AspNet.Identity.Core.dll
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\bin\Microsoft.AspNet.Identity.Owin.dll
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\bin\Microsoft.Owin.Cors.dll
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\bin\Microsoft.Owin.dll
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\bin\Microsoft.Owin.Host.HttpListener.dll
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\bin\Microsoft.Owin.Host.SystemWeb.dll
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\bin\Microsoft.Owin.Hosting.dll
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\bin\Microsoft.Owin.Security.Cookies.dll
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\bin\Microsoft.Owin.Security.dll
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\bin\Microsoft.Owin.Security.Google.dll
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\bin\Microsoft.Owin.Security.OAuth.dll
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\bin\Microsoft.Web.Infrastructure.dll
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\bin\Newtonsoft.Json.dll
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\bin\Owin.dll
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\bin\System.Net.Http.Formatting.dll
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\bin\System.Web.Cors.dll
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\bin\System.Web.Helpers.dll
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\bin\System.Web.Http.Cors.dll
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\bin\System.Web.Http.dll
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\bin\System.Web.Http.Owin.dll
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\bin\System.Web.Http.WebHost.dll
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\bin\System.Web.Mvc.dll
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\bin\System.Web.Optimization.dll
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\bin\System.Web.Razor.dll
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\bin\System.Web.WebPages.Deployment.dll
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\bin\System.Web.WebPages.dll
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\bin\System.Web.WebPages.Razor.dll
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\bin\VCFramework.Entidad.dll
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\bin\VCFramework.EntidadFuncional.dll
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\bin\VCFramework.NegocioMySQL.dll
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\bin\VCFramework.Negocio.Factory.dll
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\bin\VCFramework.Entidad.pdb
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\bin\VCFramework.EntidadFuncional.pdb
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\bin\VCFramework.NegocioMySQL.pdb
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\bin\Microsoft.Owin.Cors.xml
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\bin\System.Net.Http.Formatting.xml
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\bin\System.Web.Http.xml
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\bin\System.Web.Http.WebHost.xml
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\bin\Newtonsoft.Json.xml
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\bin\Microsoft.Owin.xml
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\bin\Microsoft.Owin.Security.xml
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\bin\Microsoft.Owin.Security.OAuth.xml
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\bin\Microsoft.Owin.Host.SystemWeb.xml
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\bin\Microsoft.Owin.Host.HttpListener.xml
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\bin\System.Web.Http.Owin.xml
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\bin\Microsoft.Owin.Hosting.xml
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\bin\Microsoft.AspNet.Identity.Core.xml
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\bin\Microsoft.Owin.Security.Cookies.xml
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\bin\Microsoft.AspNet.Identity.Owin.xml
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\bin\EntityFramework.xml
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\bin\EntityFramework.SqlServer.xml
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\bin\Microsoft.Owin.Security.Google.xml
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\bin\System.Web.Razor.xml
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\bin\System.Web.Helpers.xml
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\bin\System.Web.WebPages.Deployment.xml
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\bin\System.Web.WebPages.xml
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\bin\System.Web.WebPages.Razor.xml
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\bin\System.Web.Mvc.xml
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\obj\Debug\WebApiAsambleas.csprojResolveAssemblyReference.cache
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\obj\Debug\WebApiAsambleas.dll
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV\webApiAsambleas\WebApiAsambleas\obj\Debug\WebApiAsambleas.pdb
