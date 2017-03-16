@@ -21,6 +21,50 @@ namespace WebApiAsambleas.Controllers
     public class ArchivoTricelController : ApiController
     {
 
+        [System.Web.Http.AcceptVerbs("GET")]
+        public HttpResponseMessage Get([FromUri]string TricelId)
+        {
+
+            //validaciones antes de ejecutar la llamada.
+            if (TricelId == "0")
+                throw new ArgumentNullException("TricelId");
+
+
+            HttpResponseMessage httpResponse = new HttpResponseMessage();
+            try
+            {
+                string tricelId = TricelId;
+                int tricelIdBuscar = int.Parse(tricelId);
+
+
+                List<VCFramework.Entidad.ArchivosTricel> archivos = VCFramework.NegocioMySQL.ArchivosTricel.ObtenerArchivosPorTricelId(tricelIdBuscar, null);
+
+                if (archivos != null && archivos.Count > 0)
+                {
+                    foreach (VCFramework.Entidad.ArchivosTricel tri in archivos)
+                    {
+
+                        tri.Url = "CrearModificarArchivo.html?id=" + tri.Id.ToString() + "&ELIMINAR=0";
+                        tri.UrlEliminar = "CrearModificarVotacion.html?id=" + tri.Id.ToString() + "&ELIMINAR=1";
+                    }
+                    //establecimientos.Establecimientos = instituciones;
+                }
+
+                httpResponse = new HttpResponseMessage(HttpStatusCode.OK);
+                String JSON = JsonConvert.SerializeObject(archivos);
+                httpResponse.Content = new StringContent(JSON);
+                httpResponse.Content.Headers.ContentType = new System.Net.Http.Headers.MediaTypeHeaderValue(VCFramework.NegocioMySQL.Utiles.JSON_DOCTYPE);
+            }
+            catch (Exception ex)
+            {
+                httpResponse = new HttpResponseMessage(HttpStatusCode.ExpectationFailed);
+                throw ex;
+            }
+            return httpResponse;
+
+
+        }
+
         [System.Web.Http.AcceptVerbs("POST")]
         public HttpResponseMessage Post(dynamic DynamicClass)
         {
