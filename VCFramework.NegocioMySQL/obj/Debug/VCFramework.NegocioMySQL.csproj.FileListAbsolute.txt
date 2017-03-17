@@ -73,3 +73,23 @@ D:\PROYECTO_ASAMBLEAS_MAC\WEB_API_1\webApiAsambleas\VCFramework.NegocioMySQL\bin
 D:\PROYECTO_ASAMBLEAS_MAC\WEB_API_1\webApiAsambleas\VCFramework.NegocioMySQL\obj\Debug\VCFramework.NegocioMySQL.csprojResolveAssemblyReference.cache
 D:\PROYECTO_ASAMBLEAS_MAC\WEB_API_1\webApiAsambleas\VCFramework.NegocioMySQL\obj\Debug\VCFramework.NegocioMySQL.dll
 D:\PROYECTO_ASAMBLEAS_MAC\WEB_API_1\webApiAsambleas\VCFramework.NegocioMySQL\obj\Debug\VCFramework.NegocioMySQL.pdb
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV2\webApiAsambleas\VCFramework.NegocioMySQL\bin\Debug\VCFramework.NegocioMySQL.dll.config
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV2\webApiAsambleas\VCFramework.NegocioMySQL\bin\Debug\VCFramework.NegocioMySQL.dll
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV2\webApiAsambleas\VCFramework.NegocioMySQL\bin\Debug\VCFramework.NegocioMySQL.pdb
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV2\webApiAsambleas\VCFramework.NegocioMySQL\bin\Debug\Microsoft.Owin.Cors.dll
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV2\webApiAsambleas\VCFramework.NegocioMySQL\bin\Debug\Microsoft.Owin.dll
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV2\webApiAsambleas\VCFramework.NegocioMySQL\bin\Debug\Newtonsoft.Json.dll
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV2\webApiAsambleas\VCFramework.NegocioMySQL\bin\Debug\Owin.dll
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV2\webApiAsambleas\VCFramework.NegocioMySQL\bin\Debug\System.Web.Cors.dll
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV2\webApiAsambleas\VCFramework.NegocioMySQL\bin\Debug\System.Web.Http.Cors.dll
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV2\webApiAsambleas\VCFramework.NegocioMySQL\bin\Debug\System.Web.Http.dll
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV2\webApiAsambleas\VCFramework.NegocioMySQL\bin\Debug\VCFramework.Entidad.dll
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV2\webApiAsambleas\VCFramework.NegocioMySQL\bin\Debug\VCFramework.EntidadFuncional.dll
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV2\webApiAsambleas\VCFramework.NegocioMySQL\bin\Debug\VCFramework.Negocio.Factory.dll
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV2\webApiAsambleas\VCFramework.NegocioMySQL\bin\Debug\VCFramework.Entidad.pdb
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV2\webApiAsambleas\VCFramework.NegocioMySQL\bin\Debug\VCFramework.EntidadFuncional.pdb
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV2\webApiAsambleas\VCFramework.NegocioMySQL\bin\Debug\Microsoft.Owin.xml
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV2\webApiAsambleas\VCFramework.NegocioMySQL\bin\Debug\Microsoft.Owin.Cors.xml
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV2\webApiAsambleas\VCFramework.NegocioMySQL\obj\Debug\VCFramework.NegocioMySQL.csprojResolveAssemblyReference.cache
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV2\webApiAsambleas\VCFramework.NegocioMySQL\obj\Debug\VCFramework.NegocioMySQL.dll
+Z:\victorcoronado en mi Mac\Projects\PROYECTO_MAC\WEB_API_DEV2\webApiAsambleas\VCFramework.NegocioMySQL\obj\Debug\VCFramework.NegocioMySQL.pdb
