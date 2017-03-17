@@ -45,13 +45,14 @@ namespace WebApiAsambleas.Controllers
                 {
                     foreach (VCFramework.Entidad.ArchivosTricel tri in archivos)
                     {
+                        string urlll = Request.RequestUri.GetLeftPart(UriPartial.Authority) + "/Repositorio/";
 
                         VCFramework.EntidadFuncional.UsuarioEnvoltorio us = new VCFramework.EntidadFuncional.UsuarioEnvoltorio();
                         us.Id = tri.Id;
                         us.NombreCompleto = tri.RutaArchivo;
 
-                        us.Url = "CrearModificarArchivo.html?id=" + tri.Id.ToString() + "&ELIMINAR=0";
-                        us.UrlEliminar = "CrearModificarVotacion.html?id=" + tri.Id.ToString() + "&ELIMINAR=1";
+                        us.Url = urlll + us.NombreCompleto;
+                        //us.UrlEliminar = "CrearModificarVotacion.html?id=" + tri.Id.ToString() + "&ELIMINAR=1";
 
                         votaciones.proposals.Add(us);
                     }
