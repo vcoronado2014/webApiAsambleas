@@ -45,14 +45,14 @@ namespace WebApiAsambleas.Controllers
                 {
                     foreach (VCFramework.Entidad.ArchivosTricel tri in archivos)
                     {
-                        string urlll = Request.RequestUri.GetLeftPart(UriPartial.Authority) + "/Repositorio/";
+                        string urlll = Request.RequestUri.GetLeftPart(UriPartial.Authority) + "/RepositorioTricel/";
 
                         VCFramework.EntidadFuncional.UsuarioEnvoltorio us = new VCFramework.EntidadFuncional.UsuarioEnvoltorio();
                         us.Id = tri.Id;
                         us.NombreCompleto = tri.RutaArchivo;
 
                         us.Url = urlll + us.NombreCompleto;
-                        //us.UrlEliminar = "CrearModificarVotacion.html?id=" + tri.Id.ToString() + "&ELIMINAR=1";
+                        us.UrlEliminar = "EliminarDocumento.html?id=" + us.Id.ToString() + "&tipo=archivotricel&tricelId=" + tri.TriId.ToString();
 
                         votaciones.proposals.Add(us);
                     }
@@ -74,57 +74,82 @@ namespace WebApiAsambleas.Controllers
 
         }
 
+        const string UploadDirectory = "~/RepositorioTricel/";
+        const string UploadDirectoryImg = "~/img/";
         [System.Web.Http.AcceptVerbs("POST")]
-        public HttpResponseMessage Post(dynamic DynamicClass)
+        public HttpResponseMessage CreateContestEntry()
         {
 
-            string Input = JsonConvert.SerializeObject(DynamicClass);
-
-            dynamic data = JObject.Parse(Input);
-
-            string buscarNombreUsuario = "";
-            if (data.BuscarId != null)
-            {
-                buscarNombreUsuario = data.BuscarId;
-            }
-
-            //validaciones antes de ejecutar la llamada.
-            if (data.TricelId == 0)
-                throw new ArgumentNullException("TricelId");
-
-
+            VCFramework.Entidad.ArchivosTricel entidad = new VCFramework.Entidad.ArchivosTricel();
             HttpResponseMessage httpResponse = new HttpResponseMessage();
             try
             {
-                string tricelId = data.TricelId;
-                int tricelIdBuscar = int.Parse(tricelId);
+                var httpPostedFile = HttpContext.Current.Request.Files["UploadedImage"];
+                string triId = HttpContext.Current.Request.Form["TriId"];
 
-
-                List<VCFramework.Entidad.ArchivosTricel> archivos = VCFramework.NegocioMySQL.ArchivosTricel.ObtenerArchivosPorTricelId(tricelIdBuscar, null);
-
-                
-                if (buscarNombreUsuario != "")
+                if (httpPostedFile != null)
                 {
-                    if (VCFramework.NegocioMySQL.Utiles.IsNumeric(buscarNombreUsuario))
-                        archivos = archivos.FindAll(p => p.Id == int.Parse(buscarNombreUsuario));
-                }
-
-
-                if (archivos != null && archivos.Count > 0)
-                {
-                    foreach (VCFramework.Entidad.ArchivosTricel tri in archivos)
+                    //guardamos el registro
+                    #region tratamiento del archivo
+                    string resultExtension = Path.GetExtension(httpPostedFile.FileName);
+                    string resultFileName = Path.ChangeExtension(httpPostedFile.FileName, resultExtension);
+                    string resultFileUrl = UploadDirectory + resultFileName;
+                    string fechaSubida = DateTime.Now.ToShortDateString() + " " + DateTime.Now.ToShortTimeString();
+                    string urlExtension = "";
+                    switch (resultExtension)
                     {
-
-                        tri.Url = "CrearModificarArchivo.html?id=" + tri.Id.ToString() + "&ELIMINAR=0";
-                        tri.UrlEliminar = "CrearModificarVotacion.html?id=" + tri.Id.ToString() + "&ELIMINAR=1";
+                        case ".jpg":
+                        case ".jpeg":
+                            urlExtension = UploadDirectoryImg + "jpeg.png";
+                            break;
+                        case ".gif":
+                            urlExtension = UploadDirectoryImg + "gif.png";
+                            break;
+                        case ".png":
+                            urlExtension = UploadDirectoryImg + "png.png";
+                            break;
+                        case ".doc":
+                        case ".docx":
+                            urlExtension = UploadDirectoryImg + "word.png";
+                            break;
+                        case ".xls":
+                        case ".xlsx":
+                            urlExtension = UploadDirectoryImg + "excel.png";
+                            break;
+                        case ".pdf":
+                            urlExtension = UploadDirectoryImg + "pdf.png";
+                            break;
                     }
-                    //establecimientos.Establecimientos = instituciones;
+
+                    string name = httpPostedFile.FileName;
+                    long sizeInKilobytes = httpPostedFile.ContentLength / 1024;
+                    string sizeText = sizeInKilobytes.ToString() + " KB";
+                    #endregion
+
+                    //guardamos el registro
+                    #region guardado registro
+                    entidad.Borrado = false;
+                    entidad.Eliminado = 0;
+                    entidad.Id = 0;
+                    entidad.TriId = int.Parse(triId);
+                    entidad.Modificado = false;
+                    entidad.RutaArchivo = httpPostedFile.FileName;
+                    entidad.Nuevo = true;
+                    entidad.Url = "";
+                    VCFramework.NegocioMySQL.ArchivosTricel.Insertar(entidad);
+                    #endregion
+
+                    var fileSavePath = Path.Combine(HttpContext.Current.Server.MapPath("~/RepositorioTricel"), httpPostedFile.FileName);
+
+                    httpPostedFile.SaveAs(fileSavePath);
                 }
 
                 httpResponse = new HttpResponseMessage(HttpStatusCode.OK);
-                String JSON = JsonConvert.SerializeObject(archivos);
+                String JSON = JsonConvert.SerializeObject(entidad);
                 httpResponse.Content = new StringContent(JSON);
                 httpResponse.Content.Headers.ContentType = new System.Net.Http.Headers.MediaTypeHeaderValue(VCFramework.NegocioMySQL.Utiles.JSON_DOCTYPE);
+
+
             }
             catch (Exception ex)
             {
@@ -135,5 +160,50 @@ namespace WebApiAsambleas.Controllers
 
 
         }
+
+        [System.Web.Http.AcceptVerbs("DELETE")]
+        public HttpResponseMessage Delete(dynamic DynamicClass)
+        {
+
+            string Input = JsonConvert.SerializeObject(DynamicClass);
+
+            dynamic data = JObject.Parse(Input);
+
+            //validaciones antes de ejecutar la llamada.
+            if (data.Id == 0)
+                throw new ArgumentNullException("Id");
+
+
+            HttpResponseMessage httpResponse = new HttpResponseMessage();
+
+            try
+            {
+                string idTricel = data.Id;
+                int idTricelBuscar = int.Parse(idTricel);
+                List<VCFramework.Entidad.ArchivosTricel> inst = VCFramework.NegocioMySQL.ArchivosTricel.ObtenerArchivoPorId(idTricelBuscar);
+
+                if (inst != null && inst.Count == 1)
+                {
+
+                    VCFramework.NegocioMySQL.ArchivosTricel.Eliminar(inst[0]);
+
+                    httpResponse = new HttpResponseMessage(HttpStatusCode.OK);
+                    String JSON = JsonConvert.SerializeObject(inst[0]);
+                    httpResponse.Content = new StringContent(JSON);
+                    httpResponse.Content.Headers.ContentType = new System.Net.Http.Headers.MediaTypeHeaderValue(VCFramework.NegocioMySQL.Utiles.JSON_DOCTYPE);
+
+                }
+
+
+            }
+            catch (Exception ex)
+            {
+                httpResponse = new HttpResponseMessage(HttpStatusCode.ExpectationFailed);
+                throw ex;
+            }
+            return httpResponse;
+
+        }
+
     }
 }

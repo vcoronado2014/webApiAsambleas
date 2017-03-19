@@ -155,6 +155,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\ArchivoTricelController.cs" />
+    <Compile Include="Controllers\ListaTricelController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -204,6 +205,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="RepositorioTricel\" />
     <Folder Include="Repositorio\" />
   </ItemGroup>
   <ItemGroup>

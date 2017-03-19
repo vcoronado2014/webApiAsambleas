@@ -40,6 +40,8 @@ namespace VCFramework.EntidadFuncional
 
         public String OtroCuatro { get; set; }
 
+        public String OtroCinco { get; set; }
+
         public String UrlDocumento { get; set; }
     }
     public class NotificacionRetorno

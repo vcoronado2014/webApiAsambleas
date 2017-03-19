@@ -57,5 +57,18 @@ namespace VCFramework.NegocioMySQL
                 lista2 = lista2.FindAll(p => p.Eliminado == 0);
             return lista2;
         }
+        public static int Insertar(VCFramework.Entidad.ArchivosTricel entidad)
+        {
+            Factory fac = new Factory();
+            return fac.Insertar<VCFramework.Entidad.ArchivosTricel>(entidad, setCnsWebLun);
+        }
+
+        public static int Eliminar(VCFramework.Entidad.ArchivosTricel entidad)
+        {
+            entidad.Eliminado = 1;
+            Factory fac = new Factory();
+            return fac.Update<VCFramework.Entidad.ArchivosTricel>(entidad, setCnsWebLun);
+        }
+
     }
 }

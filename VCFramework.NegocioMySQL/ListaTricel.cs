@@ -322,6 +322,23 @@ namespace VCFramework.NegocioMySQL
                 lista2 = lista2.FindAll(p => p.Eliminado == 0);
             return lista2;
         }
+        public static int Eliminar(Entidad.ListaTricel entidad)
+        {
+            Factory fac = new Factory();
+            entidad.Eliminado = 1;
+            return fac.Update<VCFramework.Entidad.ListaTricel>(entidad, setCnsWebLun);
+        }
+        public static int Modificar(Entidad.ListaTricel entidad)
+        {
+            Factory fac = new Factory();
+            return fac.Update<VCFramework.Entidad.ListaTricel>(entidad, setCnsWebLun);
+        }
+        public static int Insertar(Entidad.ListaTricel entidad)
+        {
+            Factory fac = new Factory();
+            return fac.Insertar<VCFramework.Entidad.ListaTricel>(entidad, setCnsWebLun);
+        }
+
         public static List<VCFramework.Entidad.ListaTricel> ObtenerListaTricelPorTricelId(int triId)
         {
             VCFramework.Negocio.Factory.Factory fac = new VCFramework.Negocio.Factory.Factory();

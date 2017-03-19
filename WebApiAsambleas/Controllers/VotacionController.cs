@@ -27,8 +27,9 @@ namespace AsambleasWeb.Controllers
 		[System.Web.Http.AcceptVerbs("POST")]
 		public HttpResponseMessage Post(dynamic DynamicClass)
 		{
+            System.Globalization.CultureInfo culture = new System.Globalization.CultureInfo("es-CL");
 
-			string Input = JsonConvert.SerializeObject(DynamicClass);
+            string Input = JsonConvert.SerializeObject(DynamicClass);
 
 			dynamic data = JObject.Parse(Input);
 
@@ -71,11 +72,12 @@ namespace AsambleasWeb.Controllers
 						us.Id = tri.Id;
 						us.NombreCompleto = tri.Objetivo;
 						us.NombreUsuario = tri.Nombre;
-						us.OtroUno = tri.FechaInicio.ToShortDateString();
-						us.OtroDos = tri.FechaTermino.ToShortDateString();
-						us.OtroTres = tri.FechaCreacion.ToShortDateString();
+                        
+                        us.OtroUno = DateTime.Parse(tri.FechaInicio.ToShortDateString(), culture).ToShortDateString().Replace("/", "-");
+                        us.OtroDos = DateTime.Parse(tri.FechaTermino.ToShortDateString(), culture).ToShortDateString().Replace("/", "-");
+                        us.OtroTres = tri.FechaCreacion.ToShortDateString();
 						//cantidad de listas asociadas al tricel
-						List<VCFramework.Entidad.ListaTricel> listas = VCFramework.NegocioMySQL.ListaTricel.ObtenerListaPorInstId(instIdBuscar);
+						List<VCFramework.Entidad.ListaTricel> listas = VCFramework.NegocioMySQL.ListaTricel.ObtenerListaTricelPorTricelId(tri.Id);
 						us.OtroCuatro = listas.Count.ToString();
 						//us.UrlDocumento = insti.UrlDocumento;
 
@@ -133,6 +135,7 @@ namespace AsambleasWeb.Controllers
             {
                 VCFramework.Entidad.Tricel tricel = new VCFramework.Entidad.Tricel();
                 System.Globalization.CultureInfo culture = new System.Globalization.CultureInfo("es-CL");
+                IFormatProvider culture1 = new System.Globalization.CultureInfo("es-CL", true);
                 if (id != "0")
                 {
                     //es modificado
@@ -145,6 +148,18 @@ namespace AsambleasWeb.Controllers
                         tricel.Nombre = nombre;
                         tricel.Objetivo = objetivo;
                         VCFramework.NegocioMySQL.Tricel.Modificar(tricel);
+                        //ahora actualizamos las listas
+                        List<VCFramework.Entidad.ListaTricel> listas = VCFramework.NegocioMySQL.ListaTricel.ObtenerListaTricelPorTricelId(tricel.Id);
+                        if (listas != null && listas.Count > 0)
+                        {
+                            foreach(VCFramework.Entidad.ListaTricel list in listas)
+                            {
+                                list.FechaInicio = tricel.FechaInicio;
+                                list.FechaTermino = tricel.FechaTermino;
+                                VCFramework.NegocioMySQL.ListaTricel.Modificar(list);
+
+                            }
+                        }
                     }
                 }
                 else
@@ -206,6 +221,25 @@ namespace AsambleasWeb.Controllers
 
 
                     VCFramework.NegocioMySQL.Tricel.Modificar(inst);
+                    //archivos tricel
+                    List<VCFramework.Entidad.ArchivosTricel> archivos = VCFramework.NegocioMySQL.ArchivosTricel.ObtenerArchivosPorTricelId(idBuscar, null);
+                    if (archivos != null && archivos.Count > 0)
+                    {
+                        foreach(VCFramework.Entidad.ArchivosTricel arc in archivos)
+                        {
+                            VCFramework.NegocioMySQL.ArchivosTricel.Eliminar(arc);
+                        }
+                    }
+                    //listas tricel
+                    List<VCFramework.Entidad.ListaTricel> listas = VCFramework.NegocioMySQL.ListaTricel.ObtenerListaTricelPorTricelId(idBuscar);
+                    if (listas != null && listas.Count > 0)
+                    {
+                        foreach(VCFramework.Entidad.ListaTricel list in listas)
+                        {
+                            VCFramework.NegocioMySQL.ListaTricel.Eliminar(list);
+                        }
+                    }
+
 
                     httpResponse = new HttpResponseMessage(HttpStatusCode.OK);
                     String JSON = JsonConvert.SerializeObject(inst);
