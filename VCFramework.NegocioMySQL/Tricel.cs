@@ -47,6 +47,17 @@ namespace VCFramework.NegocioMySQL
                 lista2 = lista2.FindAll(p => p.Eliminado == 0);
             return lista2;
         }
+        public static int Modificar(VCFramework.Entidad.Tricel entidad)
+        {
+            VCFramework.Negocio.Factory.Factory fac = new Factory();
+            return fac.Update<Entidad.Tricel>(entidad, setCnsWebLun);
+        }
+
+        public static int Insertar(VCFramework.Entidad.Tricel entidad)
+        {
+            VCFramework.Negocio.Factory.Factory fac = new Factory();
+            return fac.Insertar<Entidad.Tricel>(entidad, setCnsWebLun);
+        }
         public static List<VCFramework.EntidadFuniconal.TricelFuncional> ObtenerTricelPorInstIdTodosFucnional(int instId, int usuIdLogueado)
         {
             List<VCFramework.Entidad.Tricel> listaTricel = ObtenerTricelPorInstIdTodos(instId);

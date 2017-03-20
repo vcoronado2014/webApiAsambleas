@@ -25,3 +25,9 @@ D:/ASAMBLEAS_MAC/VCFramework.Entidad/bin/Debug/VCFramework.Entidad.dll.config
 /Users/victorcoronado/Projects/PROYECTO_MAC/WEB_API/webApiAsambleas/VCFramework.Entidad/bin/Debug/Microsoft.Owin.Cors.xml
 /Users/victorcoronado/Projects/PROYECTO_MAC/WEB_API/webApiAsambleas/VCFramework.Entidad/obj/Debug/VCFramework.Entidad.dll
 /Users/victorcoronado/Projects/PROYECTO_MAC/WEB_API/webApiAsambleas/VCFramework.Entidad/obj/Debug/VCFramework.Entidad.dll.mdb
+D:\PROYECTO_ASAMBLEAS_MAC\webapi_3\webApiAsambleas\VCFramework.Entidad\bin\Debug\VCFramework.Entidad.dll.config
+D:\PROYECTO_ASAMBLEAS_MAC\webapi_3\webApiAsambleas\VCFramework.Entidad\bin\Debug\VCFramework.Entidad.dll
+D:\PROYECTO_ASAMBLEAS_MAC\webapi_3\webApiAsambleas\VCFramework.Entidad\bin\Debug\VCFramework.Entidad.pdb
+D:\PROYECTO_ASAMBLEAS_MAC\webapi_3\webApiAsambleas\VCFramework.Entidad\bin\Debug\System.Web.Cors.dll
+D:\PROYECTO_ASAMBLEAS_MAC\webapi_3\webApiAsambleas\VCFramework.Entidad\obj\Debug\VCFramework.Entidad.dll
+D:\PROYECTO_ASAMBLEAS_MAC\webapi_3\webApiAsambleas\VCFramework.Entidad\obj\Debug\VCFramework.Entidad.pdb

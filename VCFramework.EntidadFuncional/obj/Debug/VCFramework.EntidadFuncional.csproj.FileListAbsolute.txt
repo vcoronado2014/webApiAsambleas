@@ -35,3 +35,12 @@ D:/ASAMBLEAS_MAC/VCFramework.EntidadFuncional/bin/Debug/VCFramework.EntidadFunci
 /Users/victorcoronado/Projects/PROYECTO_MAC/WEB_API/webApiAsambleas/VCFramework.EntidadFuncional/obj/Debug/VCFramework.EntidadFuncional.csprojResolveAssemblyReference.cache
 /Users/victorcoronado/Projects/PROYECTO_MAC/WEB_API/webApiAsambleas/VCFramework.EntidadFuncional/obj/Debug/VCFramework.EntidadFuncional.dll
 /Users/victorcoronado/Projects/PROYECTO_MAC/WEB_API/webApiAsambleas/VCFramework.EntidadFuncional/obj/Debug/VCFramework.EntidadFuncional.dll.mdb
+D:\PROYECTO_ASAMBLEAS_MAC\webapi_3\webApiAsambleas\VCFramework.EntidadFuncional\bin\Debug\VCFramework.EntidadFuncional.dll.config
+D:\PROYECTO_ASAMBLEAS_MAC\webapi_3\webApiAsambleas\VCFramework.EntidadFuncional\bin\Debug\VCFramework.EntidadFuncional.dll
+D:\PROYECTO_ASAMBLEAS_MAC\webapi_3\webApiAsambleas\VCFramework.EntidadFuncional\bin\Debug\VCFramework.EntidadFuncional.pdb
+D:\PROYECTO_ASAMBLEAS_MAC\webapi_3\webApiAsambleas\VCFramework.EntidadFuncional\bin\Debug\System.Web.Cors.dll
+D:\PROYECTO_ASAMBLEAS_MAC\webapi_3\webApiAsambleas\VCFramework.EntidadFuncional\bin\Debug\VCFramework.Entidad.dll
+D:\PROYECTO_ASAMBLEAS_MAC\webapi_3\webApiAsambleas\VCFramework.EntidadFuncional\bin\Debug\VCFramework.Entidad.pdb
+D:\PROYECTO_ASAMBLEAS_MAC\webapi_3\webApiAsambleas\VCFramework.EntidadFuncional\obj\Debug\VCFramework.EntidadFuncional.csprojResolveAssemblyReference.cache
+D:\PROYECTO_ASAMBLEAS_MAC\webapi_3\webApiAsambleas\VCFramework.EntidadFuncional\obj\Debug\VCFramework.EntidadFuncional.dll
+D:\PROYECTO_ASAMBLEAS_MAC\webapi_3\webApiAsambleas\VCFramework.EntidadFuncional\obj\Debug\VCFramework.EntidadFuncional.pdb

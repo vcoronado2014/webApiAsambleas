@@ -27,8 +27,9 @@ namespace AsambleasWeb.Controllers
 		[System.Web.Http.AcceptVerbs("POST")]
 		public HttpResponseMessage Post(dynamic DynamicClass)
 		{
+            System.Globalization.CultureInfo culture = new System.Globalization.CultureInfo("es-CL");
 
-			string Input = JsonConvert.SerializeObject(DynamicClass);
+            string Input = JsonConvert.SerializeObject(DynamicClass);
 
 			dynamic data = JObject.Parse(Input);
 
@@ -71,21 +72,17 @@ namespace AsambleasWeb.Controllers
 						us.Id = tri.Id;
 						us.NombreCompleto = tri.Objetivo;
 						us.NombreUsuario = tri.Nombre;
-						us.OtroUno = tri.FechaInicio.ToShortDateString();
-						us.OtroDos = tri.FechaTermino.ToShortDateString();
-						us.OtroTres = tri.FechaCreacion.ToShortDateString();
+                        
+                        us.OtroUno = DateTime.Parse(tri.FechaInicio.ToShortDateString(), culture).ToShortDateString().Replace("/", "-");
+                        us.OtroDos = DateTime.Parse(tri.FechaTermino.ToShortDateString(), culture).ToShortDateString().Replace("/", "-");
+                        us.OtroTres = tri.FechaCreacion.ToShortDateString();
 						//cantidad de listas asociadas al tricel
-						List<VCFramework.Entidad.ListaTricel> listas = VCFramework.NegocioMySQL.ListaTricel.ObtenerListaPorInstId(instIdBuscar);
+						List<VCFramework.Entidad.ListaTricel> listas = VCFramework.NegocioMySQL.ListaTricel.ObtenerListaTricelPorTricelId(tri.Id);
 						us.OtroCuatro = listas.Count.ToString();
 						//us.UrlDocumento = insti.UrlDocumento;
 
-						us.Url = "CrearModificarVotacion.aspx?id=" + us.Id.ToString() + "&ELIMINAR=0";
-						us.UrlEliminar = "CrearModificarVotacion.aspx?id=" + us.Id.ToString() + "&ELIMINAR=1";
-						//string urlll = Request.RequestUri.GetLeftPart(UriPartial.Authority) + "/Repositorio/";
-						//if (us.UrlDocumento != null && us.UrlDocumento != "" && us.UrlDocumento != "#")
-						//    us.Rol = urlll + us.UrlDocumento;
-						//else
-						//    us.Rol = "#";
+						us.Url = "CrearModificarVotacion.html?id=" + us.Id.ToString() + "&ELIMINAR=0";
+						us.UrlEliminar = "CrearModificarVotacion.html?id=" + us.Id.ToString() + "&ELIMINAR=1";
 
 
 						votaciones.proposals.Add(us);
@@ -108,5 +105,159 @@ namespace AsambleasWeb.Controllers
 
 		}
 
-	}
+        [System.Web.Http.AcceptVerbs("PUT")]
+        public HttpResponseMessage Put(dynamic DynamicClass)
+        {
+
+            string Input = JsonConvert.SerializeObject(DynamicClass);
+
+            dynamic data = JObject.Parse(Input);
+
+            string id = data.Id;
+            if (id == null)
+                id = "0";
+
+            string instId = data.InstId;
+            string nombre = data.Nombre;
+            string objetivo = data.Objetivo;
+            string fechaInicio = data.FechaInicio;
+            string fechaTermino = data.FechaTermino;
+            string usuId = data.IdUsuario;
+            
+
+
+            HttpResponseMessage httpResponse = new HttpResponseMessage();
+            int idNuevo = 0;
+
+
+
+            try
+            {
+                VCFramework.Entidad.Tricel tricel = new VCFramework.Entidad.Tricel();
+                System.Globalization.CultureInfo culture = new System.Globalization.CultureInfo("es-CL");
+                IFormatProvider culture1 = new System.Globalization.CultureInfo("es-CL", true);
+                if (id != "0")
+                {
+                    //es modificado
+                    List<VCFramework.Entidad.Tricel> triceles = VCFramework.NegocioMySQL.Tricel.ObtenerTricelPorId(int.Parse(id));
+                    if (triceles.Count == 1)
+                    {
+                        tricel = triceles[0];
+                        tricel.FechaInicio = DateTime.Parse(fechaInicio, culture);
+                        tricel.FechaTermino = DateTime.Parse(fechaTermino, culture);
+                        tricel.Nombre = nombre;
+                        tricel.Objetivo = objetivo;
+                        VCFramework.NegocioMySQL.Tricel.Modificar(tricel);
+                        //ahora actualizamos las listas
+                        List<VCFramework.Entidad.ListaTricel> listas = VCFramework.NegocioMySQL.ListaTricel.ObtenerListaTricelPorTricelId(tricel.Id);
+                        if (listas != null && listas.Count > 0)
+                        {
+                            foreach(VCFramework.Entidad.ListaTricel list in listas)
+                            {
+                                list.FechaInicio = tricel.FechaInicio;
+                                list.FechaTermino = tricel.FechaTermino;
+                                VCFramework.NegocioMySQL.ListaTricel.Modificar(list);
+
+                            }
+                        }
+                    }
+                }
+                else
+                {
+                    //es nuevo
+                    tricel.Eliminado = 0;
+                    tricel.EsVigente = 1;
+                    tricel.FechaInicio = DateTime.Parse(fechaInicio, culture);
+                    tricel.FechaTermino = DateTime.Parse(fechaTermino, culture);
+                    tricel.Nombre = nombre;
+                    tricel.Objetivo = objetivo;
+                    tricel.InstId = int.Parse(instId);
+                    tricel.UsuIdCreador = int.Parse(usuId);
+                    tricel.FechaCreacion = DateTime.Now;
+                    tricel.Id = VCFramework.NegocioMySQL.Tricel.Insertar(tricel);
+                }
+
+
+                httpResponse = new HttpResponseMessage(HttpStatusCode.OK);
+                String JSON = JsonConvert.SerializeObject(tricel);
+                httpResponse.Content = new StringContent(JSON);
+                httpResponse.Content.Headers.ContentType = new System.Net.Http.Headers.MediaTypeHeaderValue(VCFramework.NegocioMySQL.Utiles.JSON_DOCTYPE);
+
+            }
+            catch (Exception ex)
+            {
+                httpResponse = new HttpResponseMessage(HttpStatusCode.ExpectationFailed);
+                throw ex;
+            }
+
+            return httpResponse;
+        }
+
+        [System.Web.Http.AcceptVerbs("DELETE")]
+        public HttpResponseMessage Delete(dynamic DynamicClass)
+        {
+
+            string Input = JsonConvert.SerializeObject(DynamicClass);
+
+            dynamic data = JObject.Parse(Input);
+
+            //validaciones antes de ejecutar la llamada.
+            if (data.Id == 0)
+                throw new ArgumentNullException("Id");
+
+            HttpResponseMessage httpResponse = new HttpResponseMessage();
+
+            try
+            {
+                string id = data.Id;
+                int idBuscar = int.Parse(id);
+
+
+                VCFramework.Entidad.Tricel inst = VCFramework.NegocioMySQL.Tricel.ObtenerTricelPorId(idBuscar)[0];
+
+                if (inst != null && inst.Id > 0)
+                {
+                    inst.Eliminado = 1;
+
+
+                    VCFramework.NegocioMySQL.Tricel.Modificar(inst);
+                    //archivos tricel
+                    List<VCFramework.Entidad.ArchivosTricel> archivos = VCFramework.NegocioMySQL.ArchivosTricel.ObtenerArchivosPorTricelId(idBuscar, null);
+                    if (archivos != null && archivos.Count > 0)
+                    {
+                        foreach(VCFramework.Entidad.ArchivosTricel arc in archivos)
+                        {
+                            VCFramework.NegocioMySQL.ArchivosTricel.Eliminar(arc);
+                        }
+                    }
+                    //listas tricel
+                    List<VCFramework.Entidad.ListaTricel> listas = VCFramework.NegocioMySQL.ListaTricel.ObtenerListaTricelPorTricelId(idBuscar);
+                    if (listas != null && listas.Count > 0)
+                    {
+                        foreach(VCFramework.Entidad.ListaTricel list in listas)
+                        {
+                            VCFramework.NegocioMySQL.ListaTricel.Eliminar(list);
+                        }
+                    }
+
+
+                    httpResponse = new HttpResponseMessage(HttpStatusCode.OK);
+                    String JSON = JsonConvert.SerializeObject(inst);
+                    httpResponse.Content = new StringContent(JSON);
+                    httpResponse.Content.Headers.ContentType = new System.Net.Http.Headers.MediaTypeHeaderValue(VCFramework.NegocioMySQL.Utiles.JSON_DOCTYPE);
+
+                }
+
+
+            }
+            catch (Exception ex)
+            {
+                httpResponse = new HttpResponseMessage(HttpStatusCode.ExpectationFailed);
+                throw ex;
+            }
+            return httpResponse;
+
+        }
+
+    }
 }

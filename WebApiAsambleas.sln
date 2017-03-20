@@ -4,8 +4,6 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiAsambleas", "WebApiAsambleas\WebApiAsambleas.csproj", "{CF2F5543-E916-49D4-9EEE-9CA6E3F5F2FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiAsambleas.Tests", "WebApiAsambleas.Tests\WebApiAsambleas.Tests.csproj", "{FE496A3C-C6C8-4B51-B15F-500C7225D40A}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VCFramework.Entidad", "VCFramework.Entidad\VCFramework.Entidad.csproj", "{E2D789EE-E03A-41A6-98EA-C92CF60C4CD7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VCFramework.EntidadFuncional", "VCFramework.EntidadFuncional\VCFramework.EntidadFuncional.csproj", "{C6BD809D-012B-48DE-9BB3-72AE3B751D49}"
@@ -22,10 +20,6 @@ Global
 		{CF2F5543-E916-49D4-9EEE-9CA6E3F5F2FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF2F5543-E916-49D4-9EEE-9CA6E3F5F2FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF2F5543-E916-49D4-9EEE-9CA6E3F5F2FC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FE496A3C-C6C8-4B51-B15F-500C7225D40A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FE496A3C-C6C8-4B51-B15F-500C7225D40A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FE496A3C-C6C8-4B51-B15F-500C7225D40A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FE496A3C-C6C8-4B51-B15F-500C7225D40A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E2D789EE-E03A-41A6-98EA-C92CF60C4CD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E2D789EE-E03A-41A6-98EA-C92CF60C4CD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2D789EE-E03A-41A6-98EA-C92CF60C4CD7}.Release|Any CPU.ActiveCfg = Release|Any CPU

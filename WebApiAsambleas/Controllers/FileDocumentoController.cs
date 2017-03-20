@@ -144,7 +144,7 @@ namespace AsambleasWeb.Controllers
                             entidadS.Url = "#";
 
                         
-                        entidadS.UrlEliminar = "EliminarDocumento.html?id=" + entidadS.Id.ToString();
+                        entidadS.UrlEliminar = "EliminarDocumento.html?id=" + entidadS.Id.ToString() + "&tipo=documentousuario";
 
                         documentosE.proposals.Add(entidadS);
                     }
