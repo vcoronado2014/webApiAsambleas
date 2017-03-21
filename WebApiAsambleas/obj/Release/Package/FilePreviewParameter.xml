@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="vcoronado-001-subsite4" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\PROYECTO_ASAMBLEAS_MAC\\webApiAsambleas\\WebApiAsambleas\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\PROYECTO_ASAMBLEAS_MAC\\webApiAsambleas\\WebApiAsambleas\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="BDColegioSql-Web.config Connection String" description="" value="Data Source=SQL5034.SmarterASP.NET;Initial Catalog=DB_9DAC90_cpas;Persist Security Info=True;User ID=DB_9DAC90_cpas_admin;Password=antonia2006" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\PROYECTO_ASAMBLEAS_MAC\\webApiAsambleas\\WebApiAsambleas\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='BDColegioSql']/@connectionString" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="DefaultConnection_ConnectionString" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\PROYECTO_ASAMBLEAS_MAC\\webApiAsambleas\\WebApiAsambleas\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+</parameters>

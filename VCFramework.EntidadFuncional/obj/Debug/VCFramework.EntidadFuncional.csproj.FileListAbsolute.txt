@@ -44,3 +44,11 @@ D:\PROYECTO_ASAMBLEAS_MAC\webapi_3\webApiAsambleas\VCFramework.EntidadFuncional\
 D:\PROYECTO_ASAMBLEAS_MAC\webapi_3\webApiAsambleas\VCFramework.EntidadFuncional\obj\Debug\VCFramework.EntidadFuncional.csprojResolveAssemblyReference.cache
 D:\PROYECTO_ASAMBLEAS_MAC\webapi_3\webApiAsambleas\VCFramework.EntidadFuncional\obj\Debug\VCFramework.EntidadFuncional.dll
 D:\PROYECTO_ASAMBLEAS_MAC\webapi_3\webApiAsambleas\VCFramework.EntidadFuncional\obj\Debug\VCFramework.EntidadFuncional.pdb
+C:\PROYECTO_ASAMBLEAS_MAC\webApiAsambleas\VCFramework.EntidadFuncional\bin\Debug\VCFramework.EntidadFuncional.dll.config
+C:\PROYECTO_ASAMBLEAS_MAC\webApiAsambleas\VCFramework.EntidadFuncional\bin\Debug\VCFramework.EntidadFuncional.dll
+C:\PROYECTO_ASAMBLEAS_MAC\webApiAsambleas\VCFramework.EntidadFuncional\bin\Debug\VCFramework.EntidadFuncional.pdb
+C:\PROYECTO_ASAMBLEAS_MAC\webApiAsambleas\VCFramework.EntidadFuncional\bin\Debug\VCFramework.Entidad.dll
+C:\PROYECTO_ASAMBLEAS_MAC\webApiAsambleas\VCFramework.EntidadFuncional\bin\Debug\VCFramework.Entidad.pdb
+C:\PROYECTO_ASAMBLEAS_MAC\webApiAsambleas\VCFramework.EntidadFuncional\obj\Debug\VCFramework.EntidadFuncional.csprojResolveAssemblyReference.cache
+C:\PROYECTO_ASAMBLEAS_MAC\webApiAsambleas\VCFramework.EntidadFuncional\obj\Debug\VCFramework.EntidadFuncional.dll
+C:\PROYECTO_ASAMBLEAS_MAC\webApiAsambleas\VCFramework.EntidadFuncional\obj\Debug\VCFramework.EntidadFuncional.pdb

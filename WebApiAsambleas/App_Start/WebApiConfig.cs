@@ -188,6 +188,17 @@ namespace WebApiAsambleas
 			);
             #endregion
 
+            #region  Tricel
+            config.Routes.MapHttpRoute(
+                name: "Tricel",
+                routeTemplate: "api/Tricel",
+                defaults: new
+                {
+                    controller = "Tricel"
+                }
+            );
+            #endregion
+
             #region  ListaTricel
             config.Routes.MapHttpRoute(
                 name: "ListaTricel",
